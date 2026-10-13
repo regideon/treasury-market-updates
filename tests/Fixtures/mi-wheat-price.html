@@ -1,0 +1,2103 @@
+<!DOCTYPE html><html lang="en"><head>
+
+
+<script id="fenrir-console-script" data-load-strategy="domready">(()=>{var e={15517(){if(window.Fenrir=window.Fenrir||{config:{}},!window.Fenrir.console){window.Fenrir.console={};const e=new URLSearchParams(document.location.search),n=window.Fenrir?.config?.featureFlags?.logs||e.has("logs");Object.entries(window.console).forEach(([e,o])=>{"function"==typeof o&&(window.Fenrir.console[e]=n?o.bind(window.console):()=>{})})}window.Fenrir.getTime||(window.Fenrir.getTime=function(){const e=new Date;function n(e,n="00"){return`${n}${e}`.slice(-n.length)}return`${n(e.getHours())}:${n(e.getMinutes())}:${n(e.getSeconds())}.${n(e.getMilliseconds(),"000")}`})}},n={};function o(r){var i=n[r];if(void 0!==i)return i.exports;var t=n[r]={exports:{}};return e[r](t,t.exports,o),t.exports}o.m=e,o.c=n,o.o=(e,n)=>Object.prototype.hasOwnProperty.call(e,n),(()=>{o.S={};var e={},n={};o.I=(r,i)=>{i||(i=[]);var t=n[r];if(t||(t=n[r]={}),!(i.indexOf(t)>=0)){if(i.push(t),e[r])return e[r];o.o(o.S,r)||(o.S[r]={});o.S[r];var s=[];return s.length?e[r]=Promise.all(s).then(()=>e[r]=1):e[r]=1}}})();o(15517)})();</script>
+
+<script data-load-strategy="domready" type="text/javascript" id="fenrir-client-data">
+  const fenrirClientData = {"config":{"identifier":"mi","componentsToLoad":{"markets-insider-auth-redirect":{"disableLazy":true,"target":[]},"markets-insider-stored-assets":{"defer":true,"target":[]},"markets-insider-subnav-ad":{"disableLazy":true,"target":[]}},"shouldDeferScripts":false,"isSiteForwarded":true,"apigateway":{"domain":"https://membership-api.businessinsider.com","apiKey":"OGU5ZWUyZWUtNjM2ZS00OTdiLWI0OTUtYTliOGIzMjQ1ODA2"},"tracking":{"providerName":["ga","t","comscore"],"base_url":"//markets.businessinsider.com","postTrackingObject":{"postID":null,"postURI":"commodities/wheat-price","publisher":"Markets Insider","editor":null,"vertical":"","verticals":[],"author":"","category":"","dateModified":false,"datePublished":false,"numSlides":0,"wordCount":0,"abTest":null,"splitTest":null,"secondaryVerticals":"","theme":""},"data":{"gtm":{"id":"GTM-MP6F46L","env_string":""},"domains":["businessinsider.com","insider.com"],"t":{"pixel":"https://c.businessinsider.com/t.gif"}}}},"privacyApi":"NONE"}; 
+  window.Fenrir = Object.assign({}, window.Fenrir || {"config": {}}, fenrirClientData);
+  window.Fenrir.cmd = window.Fenrir.cmd || [];
+</script>
+
+<script data-load-strategy="domready">
+LUX=function(){var e="undefined"!=typeof LUX&&void 0!==LUX.gaMarks?LUX.gaMarks:[],n="undefined"!=typeof LUX&&void 0!==LUX.gaMeasures?LUX.gaMeasures:[],t="LUX_start",r=window.performance,a="undefined"!=typeof LUX&&LUX.ns?LUX.ns:Date.now?Date.now():+new Date;function u(){if(r){if(r.now)return r.now();if(r.webkitNow)return r.now();if(r.msNow)return r.now();if(r.mozNow)return r.now()}return(Date.now?Date.now():+new Date)-a}function o(n){return function(e,n){for(i=n.length-1;i>=0;i--){var t=n[i];if(e===t.name)return t}return}(n,function(){if(r){if(r.getEntriesByType)return r.getEntriesByType("mark");if(r.webkitGetEntriesByType)return r.webkitGetEntriesByType("mark")}return e}())}return r&&r.timing&&r.timing.navigationStart&&(a=r.timing.navigationStart),{mark:function(n){if(r){if(r.mark)return r.mark(n);if(r.webkitMark)return r.webkitMark(n)}e.push({name:n,entryType:"mark",startTime:u(),duration:0})},measure:function(e,i,a){if(void 0===i&&o(t)&&(i=t),r){if(r.measure)return i?a?r.measure(e,i,a):r.measure(e,i):r.measure(e);if(r.webkitMeasure)return r.webkitMeasure(e,i,a)}var f=0,s=u();if(i){var m=o(i);if(m)f=m.startTime;else{if(!(r&&r.timing&&r.timing[i]))return;f=r.timing[i]-r.timing.navigationStart}}if(a){var w=o(a);if(w)s=w.startTime;else{if(!(r&&r.timing&&r.timing[a]))return;s=r.timing[a]-r.timing.navigationStart}}n.push({name:e,entryType:"measure",startTime:f,duration:s-f})},gaMarks:e,gaMeasures:n}}(),LUX.ns=Date.now?Date.now():+new Date,LUX.ac=[],LUX.cmd=function(e){LUX.ac.push(e)},LUX.init=function(){LUX.cmd(["init"])},LUX.send=function(){LUX.cmd(["send"])},LUX.addData=function(e,n){LUX.cmd(["addData",e,n])};
+LUX.label="datapage"; // PageType: homepage, story, slideshow, video, hubpage, etc.
+LUX.minMeasureTime = 7000;
+LUX.maxMeasureTime = 30000;// Custom Dimensions
+LUX.addData('siteName', 'Markets Insider');
+
+// We can't call LUX.forceSample until the API is on the page
+window.Fenrir = window.Fenrir || { config: {} };
+window.Fenrir.sampleSpeedcurve = function sampleSpeedcurve() {
+  if (window.LUX?.forceSample && window.Fenrir?.config?.featureFlags?.forceSpeedcurveSample) {
+    window.LUX.forceSample();
+  }
+}
+
+document.addEventListener('onGeoDataCaptured', (event) => {
+  LUX.addData('continentCode', event.detail?.geoData?.continentCode || 'NA')
+});
+</script>
+
+<script async="" data-load-strategy="domready" src="https://cdn.speedcurve.com/js/lux.js?id=38383524" onload="window.Fenrir.sampleSpeedcurve()"></script>
+
+<script data-load-strategy="domready">
+(function(){
+  var toFirstRequest = 'Inline Scripts Init - Start';
+  var toAdLibrary = 'Inline Scripts Ad Library Loaded - Start';
+
+  function createMark(markName) {
+    var perfMarks = window.performance;
+    var lux = window.LUX;
+
+    if (perfMarks && perfMarks.clearMarks && perfMarks.mark) {
+      perfMarks.clearMarks(markName);
+      perfMarks.mark(markName);
+    } else if (lux && lux.mark) {
+      lux.mark(markName);
+    }
+  }
+
+  createMark(toFirstRequest);
+  createMark(toAdLibrary);
+})()
+</script>
+
+    <!-- Meta Tags -->
+    
+<title>Wheat PRICE Today | Wheat Spot Price Chart | Live Price of Wheat per Ounce | Markets Insider</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#ffffff">
+<meta name="title" content="Wheat PRICE Today | Wheat Spot Price Chart | Live Price of Wheat per Ounce | Markets Insider">
+<meta name="company:tech" content="G">
+<meta property="og:title" content="Wheat PRICE Today | Wheat Spot Price Chart | Live Price of Wheat per Ounce | Markets Insider">
+<meta property="twitter:title" content="Wheat PRICE Today | Wheat Spot Price Chart | Live Price of Wheat per Ounce | Markets Insider">
+		<meta name="description" content="Wheat Price: Get all information on the Price of Wheat including News, Charts and Realtime Quotes.
+">
+		<meta property="og:description" content="Wheat Price: Get all information on the Price of Wheat including News, Charts and Realtime Quotes.
+">
+		<meta name="twitter:description" content="Wheat Price: Get all information on the Price of Wheat including News, Charts and Realtime Quotes.
+">
+
+	<meta property="og:image" content="https://markets.businessinsider.com/Images/FacebookIcon.jpg">
+<meta name="Publisher" content="Markets Insider">
+<meta name="Copyright" content="finanzen.net GmbH">
+<meta name="Robots" content="INDEX,FOLLOW">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="page-topic" content="Finanzen">
+<meta name="page-type" content="Kommerzielle Homepage">
+<meta name="audience" content="Alle">
+<meta name="verify-v1" content="O7IlH7Qai/tL0iF1rHcx2JJ8p+LJIZjfS+ylSLqaxm4=">
+<meta name="google-site-verification" content="mZUp2IbDqdTBhra_E0ZqOG4NW0GuABzSMO9mcAXDJ9E">
+<meta name="pocket-site-verification" content="6efc6eae0393e106a6d1d377acc83e">
+<meta property="og:site_name" content="markets.businessinsider.com">
+<meta property="fb:page_id" content="1669622843355246">
+<meta property="fb:pages" content="20446254070">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://markets.businessinsider.com/commodities/wheat-price">
+<link title="markets.businessinsider.com" rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml">
+
+
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#014889">
+
+    
+
+    <script>
+        window.reCaptchaSiteKey = "6LcC2FgsAAAAAFSikuMC07pGwnl1m6iAUAanTU9E";
+        window.reCaptchaApiUrl = "https://www.google.com/recaptcha/api.js";
+    </script>
+
+    <!-- PreLoads -->
+    
+<link rel="preload" href="/Content/dist/fonts/Garnett-VF-Italic-Subset-Web.woff2" as="font" type="font/woff2" crossorigin="">
+<link rel="preload" href="/Content/dist/fonts/Garnett-VF-Subset-Web.woff2" as="font" type="font/woff2" crossorigin="">
+<link rel="preload" href="/Content/dist/fonts/PTSans-Regular-Subset.woff2" as="font" type="font/woff2" crossorigin="">
+<link rel="preload" href="/Content/dist/fonts/TiemposText-Regular-Subset.woff2" as="font" type="font/woff2" crossorigin="">
+<link rel="preload" href="/Content/dist/fonts/TiemposText-Bold-Subset.woff2" as="font" type="font/woff2" crossorigin="">
+<link rel="preload" href="/Content/dist/fonts/TiemposText-BoldItalic-Subset.woff2" as="font" type="font/woff2" crossorigin="">
+<link rel="preload" href="/Content/dist/fonts/TiemposText-Italic-Subset.woff2" as="font" type="font/woff2" crossorigin="">
+<link rel="preload" href="/Content/dist/fonts/icon.woff2?v=674987178" as="font" type="font/woff2" crossorigin="">
+<link rel="preload" href="/Content/dist/images/business-insider-logo.svg" as="image">
+<link rel="preload" href="/Content/dist/images/insider-intelligence-logo.svg" as="image">
+<link rel="preload" href="/Content/dist/images/insider-logo.svg" as="image">
+<link rel="preload" href="/Content/dist/images/markets-insider-logo.svg" as="image">
+
+
+<link rel="dns-prefetch" href="//pproxy.markets.businessinsider.com">
+<link rel="dns-prefetch" href="//images.finanzen.net">
+<link rel="dns-prefetch" href="//www.google-analytics.com">
+<link rel="dns-prefetch" href="//www.googletagservices.com">
+<link rel="dns-prefetch" href="//www.googletagmanager.com">
+<link rel="dns-prefetch" href="//cdn.krxd.net">
+<link rel="dns-prefetch" href="//beacon.krxd.net">
+<link rel="dns-prefetch" href="//usermatch.krxd.net">
+<link rel="dns-prefetch" href="//js-agent.newrelic.com">
+<link rel="dns-prefetch" href="//cdn.taboola.com">
+<link rel="dns-prefetch" href="//ping.chartbeat.net">
+<link rel="dns-prefetch" href="//static.chartbeat.com">
+
+<link rel="preconnect" href="//cdn.privacy-mgmt.com">
+<link rel="preconnect" href="//htlbid.com">
+<link rel="preconnect" href="//cdn.permutive.com">
+<link rel="preconnect" href="//live.sekindo.com">
+<link rel="preconnect" href="//cdn.taboola.com">
+    <!-- Stylesheet -->
+    
+<link href="/Content/dist/styles.css?v=20260920.1" rel="stylesheet" title="" type="text/css">
+<link rel="stylesheet" type="text/css" href="https://htlbid.com/v3/marketsinsider.com/htlbid.css">
+<link href="/cache/css/chartiq/stx-chart.css?v=20260920.1" rel="stylesheet" title="" type="text/css">
+<!-- this component generated on: 2026-08-07 -->
+  <link rel="stylesheet" href="/styles/markets-insider-shared-components.5d91cb615bc7f231aef5.css" media="all">
+
+
+
+<noscript>
+	<style>
+		#piano-inline-content-wrapper {
+			display: none !important;
+		}
+
+		.piano-freemium {
+			display: block !important;
+		}
+
+		#piano-inline-slideshow-wrapper {
+			display: none !important;
+		}
+	</style>
+</noscript>
+    
+    <!-- JavaScript -->
+    
+    <script defer="defer" src="/Content/Scripts/jquery-1.11.3.min.js?v=20260920.1"></script><script defer="defer" src="/Content/Scripts/jquery.lazy-master/jquery.lazy.min.js?v=20260920.1"></script>
+
+<script defer="defer" src="/Content/Scripts/MDSnG/min/push-mdsng.min.js?v=20260920.1"></script>
+
+<!-- this component generated on: 2026-08-07 -->
+<script id="consent-manager-script" data-load-strategy="domready">(()=>{var e={19249(e,n,t){"use strict";const o=async()=>{const e=localStorage.getItem("profile");if(!e)return;let n;try{n=JSON.parse(e)}catch{return}const t=n["https://insider/memberId"],o=n["https://insider/token"];if(!t||!o)return;const i=window.Fenrir.cm?.isOptedOutOfAds,{privacyApi:r}=window.Fenrir,{countryCode:s}=window.Fenrir.geoData,a={ads:i,privacyApi:r,countryCode:s},d=localStorage.getItem("idun-consent-preferences");let c={};if(d)try{c=JSON.parse(d)}catch{}if(c.ads!==i)try{(await fetch(`${window.Fenrir.config.apigateway.domain}/v1.0/users/${t}/consent-preferences`,{method:"POST",headers:{"Content-Type":"application/json",Authorization:`Bearer ${o}`},body:JSON.stringify(a)})).ok&&localStorage.setItem("idun-consent-preferences",JSON.stringify(a))}catch(e){}};const i=function(){window.Fenrir.geoData?o():document.addEventListener("onGeoDataCaptured",()=>{o()})};t(61187);const r="Sourcepoint Load - start",s="Sourcepoint Load - end sourcepoint",a="Sourcepoint Load - has consent",d="Sourcepoint Load - load queue consent";let c=!1,w=!1,u=!1;function p(){return w||c}function m(){let e=!0,n=null;const t=localStorage.getItem("_sp_user_consent_6165");try{n=t?JSON.parse(t):null}catch(e){}if("GPP"===window.Fenrir.privacyApi){const{granularStatus:t}=n?.usnat?.consentStatus||{};e=!1===t?.sellStatus}else if("TCF"===window.Fenrir.privacyApi){const{granularStatus:t}=n?.gdpr?.consentStatus||{};e="ALL"!==t?.purposeConsent?.toUpperCase()}return e}function f(e){const{step:n,timeFromStart:t}=e;delete e.step,delete e.timeFromStart;const o={now:window.Fenrir.getTime(),step:n,timeFromStart:t,cmStarted:window.Fenrir.cm.cmStarted,usPrivacyApplies:window.Fenrir.cm.usPrivacyApplies,euPrivacyApplies:window.Fenrir.cm.euPrivacyApplies,windowLoaded:window.Fenrir.cm.windowLoaded,isOptedOutOfAds:window.Fenrir.cm.isOptedOutOfAds,queueConsent:window.Fenrir.cm.queueConsent,...e};return o.timeFromStart||delete o.timeFromStart,o}function l(e){window.Fenrir.cm.isOptedOutOfAds=e,window.Fenrir.cm.cmStarted=!0,window.Fenrir.cm.loadQueueConsent();const n=new CustomEvent("onConsentReady",{detail:{isOptedOutOfAds:window.Fenrir.cm.isOptedOutOfAds,type:"update"}});document.dispatchEvent(n),i()}window.performance.mark(r),window.__tcfapi&&window.__tcfapi("addEventListener",2,function(e,n){if(n&&e){if("cmpuishown"===e.eventStatus){if(window.Fenrir.console.info(f({step:"consentManager sp.getTCData cmpuishown"})),window.Fenrir.cm.isOptedOutOfAds=m(),!w){window.performance.mark(s);const e=window.performance.measure("load - sourcepoint",r,s);window.Fenrir.console.info(f({step:"consentManager europePrivacy.bannerShown",timeFromStart:e.duration}))}w=!0,window.Fenrir.cm.cmStarted=p(),window.Fenrir.cm.loadQueueConsent()}else if("useractioncomplete"===e.eventStatus||"tcloaded"===e.eventStatus){window.Fenrir.console.info(f({step:`consentManager sp.getTCData ${e.eventStatus}`})),window.Fenrir.cm.isOptedOutOfAds=m(),c||(window.performance.mark(a),window.performance.measure("consentManager europePrivacy.consentGiven",r,a)),c=!0,window.Fenrir.cm.cmStarted=p(),window.Fenrir.cm.loadQueueConsent();const n=new CustomEvent("onConsentReady",{detail:{isOptedOutOfAds:window.Fenrir.cm.isOptedOutOfAds,type:"update"}});document.dispatchEvent(n),i()}}else window.Fenrir.console.info(f({step:"consentManager sp.getTCData error",tcData:e}))}),window.__gpp&&window.__gpp("addEventListener",function(e){if("sectionChange"===e.eventName){let n=!1;Object.keys(e.pingData.parsedSections).forEach(t=>{1===e.pingData?.parsedSections[t]?.SaleOptOut&&(n=!0)}),window.Fenrir.console.info(f({step:"consentManager gpp.sectionChange",data:e})),l(n)}else"signalStatus"===e.eventName&&"disabled"===e.pingData?.cmpDisplayStatus&&(window.Fenrir.console.info(f({step:"consentManager gpp.signalStatus",data:e})),l(!1))});const F="GPP"===window.Fenrir?.privacyApi,g="TCF"===window.Fenrir?.privacyApi;window.Fenrir.cm=Object.assign({},window.Fenrir.cm,{cmStarted:!1,windowLoaded:!1,usPrivacyApplies:F,euPrivacyApplies:g,onConsent:function(e){if("function"!=typeof e)throw new Error("method `onConsent` requires `callback` function");return document.addEventListener("onConsentReady",n=>{window.Fenrir.console.info(f({step:"consentManager onConsentReady",event:n})),e(n.detail)}),e({isOptedOutOfAds:window.Fenrir.cm.isOptedOutOfAds})},requestConsent:function(e){window.Fenrir.console.info(f({step:"consentManager requestConsent",requestor:e}));const n=new CustomEvent("onConsentReady",{detail:{isOptedOutOfAds:window.Fenrir.cm.isOptedOutOfAds,type:"request",scope:e}});document.dispatchEvent(n)},loadQueueConsent:function(){if(window.Fenrir.console.info(f({step:"consentManager loadQueueConsent"})),!window.Fenrir.cm.windowLoaded||!window.Fenrir.cm.cmStarted)return;let e;u||(window.performance.mark(d),e=window.performance.measure("queue load - sourcepoint",r,d)),u=!0,window.Fenrir.config.delayThirdPartyScripts=!1,window.Fenrir.console.info(f({step:"consentManager loadQueueConsent load scripts",timeFromStart:e?.duration}));let n=window.Fenrir.cm.queueConsent.length;for(;n;){const e=window.Fenrir.cm.queueConsent.shift();n=window.Fenrir.cm.queueConsent.length,"function"==typeof e&&e(),window.Fenrir.console.info(f({step:"consentManager loadQueueConsent script",queueLength:n}))}},getAdConsent:function(){function e(){let e=!0;if(window.Fenrir.cm.usPrivacyApplies||window.Fenrir.cm.euPrivacyApplies){const{isOptedOutOfAds:n}=window.Fenrir.cm;e=!n}return e}return new Promise(n=>{if("boolean"!=typeof window.Fenrir?.cm?.isOptedOutOfAds){const t=setTimeout(()=>n(!0),3e3);document.addEventListener("onConsentSaved",()=>{t&&clearTimeout(t),n(e())})}else n(e())})},queueConsent:[]}),window.Fenrir.console.info(f({now:window.Fenrir.getTime(),step:"consentManager starting...",tcfapi:window.__tcfapi}))},61187(){window._sp_queue&&window._sp_queue.push(()=>{window._sp_.addEventListener("onMessageChoiceSelect",(e,n,t)=>{const o=window.dataLayer||[],i={event:"privacy_center_engagement",element_name:"privacy_banner",action:"save"};if("gdpr"===e){switch(t){case 11:i.is_opted_out_of_ads=!1;break;case 12:i.action="click_to_preference_center",i.is_opted_out_of_ads="bi_value_unassigned";break;case 13:i.is_opted_out_of_ads=!0}o.push(i),window.Fenrir.console.info({now:window.Fenrir.getTime(),step:"privacy modal engagement dataLayer push",dataEvent:i})}})})}},n={};function t(o){var i=n[o];if(void 0!==i)return i.exports;var r=n[o]={exports:{}};return e[o](r,r.exports,t),r.exports}t.m=e,t.c=n,t.o=(e,n)=>Object.prototype.hasOwnProperty.call(e,n),(()=>{t.S={};var e={},n={};t.I=(o,i)=>{i||(i=[]);var r=n[o];if(r||(r=n[o]={}),!(i.indexOf(r)>=0)){if(i.push(r),e[o])return e[o];t.o(t.S,o)||(t.S[o]={});t.S[o];var s=[];return s.length?e[o]=Promise.all(s).then(()=>e[o]=1):e[o]=1}}})();t(19249)})();</script>
+
+
+<script async="async" defer="defer" src="/Content/dist/scripts.js?v=20260920.1"></script>
+
+<script>
+    ((window) => {
+		window.FinandoJsEnvironment = {  VersionNumber : "7", CurrencySeparator : ",", RegexForDateValidation : /^\d{1,2}\/\d{1,2}\/\d{4}$/, RegexForEmailValidation : /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,20}$/ }
+		window.isDevelopmentMode = 'False' === 'True';
+		window.idleNotify = {
+			time: '10',
+			href: '/notify',
+			isEnabled: 'False'
+		};
+	})(window);
+</script>
+
+<script>
+	var permutiveConfigurations = {
+		permutivePageType: 'quote',
+		pageType: 'markets',
+		topSection: 'commodity',
+		disableHtlbid: false,
+		isHome: false
+	};
+
+	var taboolaConfiguration = {
+		taboolaPageType: 'other',
+		taboolaPlacementIds: [],
+		taboolaPlacements: [],
+		pageType: 'markets',
+		topSection: 'commodity',
+		isHome: false
+	};
+</script>
+
+
+<noscript>
+	<style>
+		[data-simplebar] {
+			overflow: auto;
+		}
+	</style>
+</noscript>
+    
+     
+
+    <!-- Sections for news, tracking and canonicals -->
+        <link rel="canonical" href="https://markets.businessinsider.com/commodities/wheat-price">
+
+    
+    
+
+
+<script data-load-strategy="domready">
+  window.initialDataLayer = {"pageType":"datapage","publisher":"Markets Insider","vertical":"commodities","postURI":"commodities/wheat-price","abTest":null};
+  window.newsMetaData = {};
+</script>
+
+<script id="gtm-config-script" data-load-strategy="domready">(()=>{var t={57089(t,e,r){"use strict";var a=r(667),n=r.n(a);const s="https://insider/",i=()=>{let t,e;try{t=localStorage.getItem("profile")}catch(t){return null}if(!t)return null;try{e=JSON.parse(t)}catch(t){return null}if(!e)return null;const r=e[`${s}token`];if(!r||"string"!=typeof r)return null;const a=(t=>{try{const e=t.split(".")[1].replace(/-/g,"+").replace(/_/g,"/"),r=decodeURIComponent(atob(e).split("").map(t=>`%${`00${t.charCodeAt(0).toString(16)}`.slice(-2)}`).join(""));return JSON.parse(r)}catch(t){return null}})(r);if(!a?.exp)return null;if(Math.round(Date.now()/1e3)>a.exp)return null;return{profile:e,memberId:e[`${s}memberId`]}},o=t=>{if(t.userPhase)return t.userPhase;return t[`${s}hasPrime`]?"subscriber":"account"},u=()=>{try{return Boolean(localStorage.getItem("email_hashes"))}catch(t){return!1}},c=()=>{const t=i();if(!t)return{accessType:null,authenticationStatus:"unauthenticated",insiderId:null,subscriptionId:null,subscriptionStatus:null,userPhase:u()?"user":null};const{profile:e,memberId:r}=t,a=e.analytics??{},n=e[`${s}userAccessType`];return{accessType:a.accessType??e.accessType??n??null,authenticationStatus:"authenticated",insiderId:a.insiderId??r??null,subscriptionId:a.subscriptionId??e[`${s}subscriptionId`]??e.subscriptionId??null,subscriptionStatus:a.subscriptionStatus??e.subscriptionStatus??null,userPhase:a.userPhase??o(e)??null}};(()=>{function t(...t){window.dataLayer=window.dataLayer||[],window.dataLayer.push({...t})}const e={analytics_storage:"TCF"===window.Fenrir.privacyApi?"denied":"granted",ad_storage:"TCF"===window.Fenrir.privacyApi?"denied":"granted",ads_data_redaction:"TCF"===window.Fenrir.privacyApi};let r=window.localStorage.getItem("fenrir-ga-consent");try{if(r=JSON.parse(r),!["granted","denied"].includes(r.analytics_storage)||!["granted","denied"].includes(r.ad_storage)||![!0,!1].includes(r.ads_data_redaction))throw new Error("invalid fenrir-ga-consent value");e.analytics_storage=r.analytics_storage,e.ad_storage=r.ad_storage,e.ads_data_redaction=r.ads_data_redaction}catch(t){}window.localStorage.setItem("fenrir-ga-consent",JSON.stringify(e));const{analytics_storage:a,ad_storage:s,ads_data_redaction:i}=e;t("consent","default",{analytics_storage:a,ad_storage:s,wait_for_update:500}),t("set","ads_data_redaction",i);const o=window.initialDataLayer||{};"bi"===window.Fenrir.config.identifier&&(o.userAgent=window.navigator.userAgent);const u=c();o.authenticationStatus=u.authenticationStatus,u.userPhase&&(o.userPhase=u.userPhase),u.insiderId&&(o.insiderId=u.insiderId),u.subscriptionId&&(o.subscriptionId=u.subscriptionId),u.subscriptionStatus&&(o.subscription_status=u.subscriptionStatus),u.accessType&&(o.access_type=u.accessType);const d=localStorage.getItem("universal_id");if(d)o.universalId=d;else{const t=n()();localStorage.setItem("universal_id",t),o.universalId=t}const l={event:"privacy",privacy_is_opted_out_of_ads:!1};let p=null;const _=localStorage.getItem("_sp_user_consent_6165");try{p=_?JSON.parse(_):null}catch(t){}if("GPP"===window.Fenrir.privacyApi){const{granularStatus:t}=p?.usnat?.consentStatus||{};l.privacy_is_opted_out_of_ads=!1===t?.sellStatus}else if("TCF"===window.Fenrir.privacyApi){const{granularStatus:t}=p?.gdpr?.consentStatus||{};l.privacy_is_opted_out_of_ads="ALL"!==t?.purposeConsent?.toUpperCase()}window.dataLayer=window.dataLayer||[],window.dataLayer.push(l),window.dataLayer.push(o),window.dataLayer.push({"gtm.start":(new Date).getTime(),event:"gtm.js"})})()},667(t){t.exports=()=>{try{return crypto.randomUUID()}catch(t){return"xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx".replace(/[xy]/g,t=>{const e=16*Math.random()|0;return("x"===t?e:3&e|8).toString(16)})}}}},e={};function r(a){var n=e[a];if(void 0!==n)return n.exports;var s=e[a]={exports:{}};return t[a](s,s.exports,r),s.exports}r.m=t,r.c=e,r.n=t=>{var e=t&&t.__esModule?()=>t.default:()=>t;return r.d(e,{a:e}),e},r.d=(t,e)=>{for(var a in e)r.o(e,a)&&!r.o(t,a)&&Object.defineProperty(t,a,{enumerable:!0,get:e[a]})},r.o=(t,e)=>Object.prototype.hasOwnProperty.call(t,e),(()=>{r.S={};var t={},e={};r.I=(a,n)=>{n||(n=[]);var s=e[a];if(s||(s=e[a]={}),!(n.indexOf(s)>=0)){if(n.push(s),t[a])return t[a];r.o(r.S,a)||(r.S[a]={});r.S[a];var i=[];return i.length?t[a]=Promise.all(i).then(()=>t[a]=1):t[a]=1}}})();r(57089)})();</script>
+
+<script src="https://www.googletagmanager.com/gtm.js?id=GTM-MP6F46L" data-load-strategy="gdpr" data-consent="ANALYTICS" data-track-load="gtm"></script>
+
+</head>
+<body>
+	<!-- DevisedLabs Very Large Image LCP Hack -->
+	<img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48c3ZnIHdpZHRoPSI5OTk5OXB4IiBoZWlnaHQ9Ijk5OTk5cHgiIHZpZXdCb3g9IjAgMCA5OTk5OSA5OTk5OSIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj48ZyBzdHJva2U9Im5vbmUiIGZpbGw9Im5vbmUiIGZpbGwtb3BhY2l0eT0iMCI+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9Ijk5OTk5IiBoZWlnaHQ9Ijk5OTk5Ij48L3JlY3Q+IDwvZz4gPC9zdmc+" alt="" width="99999" height="99999" style="pointer-events: none; position: absolute; top: 0; left: 0; width: 99vw; height: 99vh; max-width: 99vw; max-height: 99vh;">
+	
+<noscript>
+<iframe src="//www.googletagmanager.com/ns.html?id=GTM-MBTPXX" height="0" width="0" style="display: none; visibility: hidden"></iframe>
+</noscript>
+<script>
+!function (e, t, a, n, g) { e[n] = e[n] || [], e[n].push({ "gtm.start": (new Date).getTime(), event: "gtm.js" }); var m = t.getElementsByTagName(a)[0], r = t.createElement(a); r.async = !0, r.src = "//www.googletagmanager.com/gtm.js?id=GTM-MBTPXX", m.parentNode.insertBefore(r, m) }(window, document, "script", "dataLayer");
+</script>
+	
+		
+
+	
+		<div class="htlad-mobile_sticky_lower" data-htlad="true" data-unit="Markets-Insider/Commodities/Homepage" data-prebid="0x0:Commodities/Homepage/mobile_leaderboard|768x0:"></div>
+
+	<!-- Markets Insider Page Header -->
+	<!-- this component generated on: 2026-08-07 -->
+<shared-component class="scs"><header class="masthead-legacy  is-user-logged-out" data-component-type="masthead-legacy" data-load-strategy="exclude" style="--scroll: 0" role="banner">
+    <section class="top-section full-width-section">
+      
+    
+    
+    <div class="masthead-ad pre-render as-homepage" data-component-type="masthead-ad" data-load-strategy="exclude" data-ad-subnav="" data-ad-refresher-expand="">
+      <div class="masthead-ad-wrapper ad-label">
+          <div class="htlad-subnav" data-htlad="true" data-unit="Markets-Insider/Commodities/Quote" data-prebid="0x0:Commodities/Quote/mobile_leaderboard|768x0:Commodities/Quote/billboard_flex|1024x0:Commodities/Quote/billboard_flex" data-bi-ad=""></div>
+    
+        <div class="close-icon-wrapper" aria-label="Close this ad">
+          <div class="close-icon-circle"><svg aria-hidden="true" focusable="false" class="svg-icon close-icon " xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+      <path fill="currentColor" d="M21 5.394 18.606 3 12 9.606 5.394 3 3 5.394 9.606 12 3 18.606 5.394 21 12 14.394 18.606 21 21 18.606 14.394 12 21 5.394Z"></path>
+    </svg></div>
+        </div>
+      </div>
+    </div>
+    </section>
+
+  <section class="main-section grid-lines masthead-animation main-animated with-mi-search">
+
+    <a href="https://www.businessinsider.com/" class="logo-link masthead-animation logo-animated" data-track-click="{&quot;product_field&quot;:&quot;logo&quot;,&quot;event&quot;:&quot;navigation&quot;,&quot;element_name&quot;:&quot;masthead&quot;,&quot;click_text&quot;:&quot;Business Insider&quot;}">
+      <svg class="svg-icon logo-inline " xmlns="http://www.w3.org/2000/svg" width="1365" height="120" viewBox="0 0 1365 120">
+        <title>Business Insider</title>
+      
+        <g class="logo-inline-path" fill="#0a0a0a" fill-rule="evenodd">
+          <path d="M0 2.46h49.1c27.31 0 41.59 14.12 41.59 31.46 0 11.97-6.75 20.1-16.11 24.4v.31c11.97 4.3 18.72 13.81 18.72 25.93 0 17.34-13.35 32.53-42.2 32.53H0V2.46Zm47.57 45.42c8.13 0 11.82-4.14 11.82-8.75s-3.68-8.9-11.82-8.9H33.15v17.65h14.42Zm.46 41.43c8.59 0 12.74-4.14 12.74-9.51s-4.3-9.51-12.58-9.51H33.15v19.03h14.88Zm52.32-18.87V2.46h33.45v67.67c0 12.74 6.29 19.49 17.03 19.49s17.49-6.75 17.49-19.64V2.46h33.61v67.98c0 28.85-19.33 49.57-51.1 49.57s-50.49-20.72-50.49-49.57ZM287.1 7.98v29.46c-7.21-5.06-19.49-8.59-29.46-8.59-9.05 0-13.66 2.92-13.66 6.75s5.06 5.83 14.12 9.05c15.35 5.37 36.21 12.58 36.21 36.98 0 21.79-16.42 37.9-45.27 37.9-14.88 0-28.54-4.3-36.98-9.97v-31c8.29 6.75 20.87 12.12 32.99 12.12 10.28 0 15.04-3.84 15.04-8.13 0-5.52-7.83-7.98-17.19-11.36-12.28-4.45-31.76-12.43-31.76-34.68 0-20.1 15.81-36.52 44.04-36.52 12.43 0 23.63 3.22 31.92 7.98Zm15.8-5.52h33.45v114.63H302.9V2.46Zm152.38 114.63h-31.92l-41.28-61.53h-.15v61.53h-31.76V2.46h31.92l41.28 60.46h.15V2.46h31.76v114.63ZM469.09 2.46h79.18v29.77h-45.73v13.81h41.12v27.01h-41.12v14.27h45.73v29.77h-79.18V2.46Zm163.12 5.52v29.46c-7.21-5.06-19.49-8.59-29.46-8.59-9.05 0-13.66 2.92-13.66 6.75s5.06 5.83 14.12 9.05c15.35 5.37 36.21 12.58 36.21 36.98 0 21.79-16.42 37.9-45.27 37.9-14.88 0-28.54-4.3-36.98-9.97v-31c8.29 6.75 20.87 12.12 32.99 12.12 10.28 0 15.04-3.84 15.04-8.13 0-5.52-7.83-7.98-17.19-11.36-12.28-4.45-31.76-12.43-31.76-34.68 0-20.1 15.81-36.52 44.04-36.52 12.43 0 23.63 3.22 31.92 7.98Zm88.54 0v29.46c-7.21-5.06-19.49-8.59-29.46-8.59-9.05 0-13.66 2.92-13.66 6.75s5.06 5.83 14.12 9.05c15.35 5.37 36.21 12.58 36.21 36.98 0 21.79-16.42 37.9-45.27 37.9-14.88 0-28.54-4.3-36.98-9.97v-31c8.29 6.75 20.87 12.12 32.99 12.12 10.28 0 15.04-3.84 15.04-8.13 0-5.52-7.83-7.98-17.19-11.36-12.28-4.45-31.76-12.43-31.76-34.68 0-20.1 15.81-36.52 44.04-36.52 12.43 0 23.63 3.22 31.92 7.98Zm45.97 109.33h33.45V2.69h-33.45v114.63ZM919.08 2.69h-31.76v60.46h-.15L845.89 2.69h-31.92v114.63h31.76V55.79h.15l41.28 61.53h31.92V2.69ZM972.92.23c-28.24 0-44.04 16.42-44.04 36.52 0 22.25 19.49 30.23 31.76 34.68 9.36 3.38 17.19 5.83 17.19 11.36 0 4.3-4.76 8.13-15.04 8.13-12.12 0-24.71-5.37-32.99-12.12v31c8.44 5.68 22.1 9.97 36.98 9.97 28.85 0 45.27-16.11 45.27-37.9 0-24.4-20.87-31.61-36.21-36.98-9.05-3.22-14.12-5.06-14.12-9.05s4.6-6.75 13.66-6.75c9.97 0 22.25 3.53 29.46 8.59V8.21C996.55 3.45 985.35.23 972.92.23Zm46.94 117.08h33.45V2.69h-33.45v114.63Zm80.71-30.23h6.45c17.34 0 28.54-9.82 28.54-27.01s-11.2-27.16-28.54-27.16h-6.45v54.17Zm68.75-27.01c0 34.53-26.09 57.24-63.53 57.24h-38.67V2.69h38.67c37.44 0 63.53 22.86 63.53 57.39Zm9.07 57.24h79.18V87.54h-45.73V73.27h41.12V46.26h-41.12V32.45h45.73V2.69h-79.18v114.63Zm131.83-60.46c8.44 0 15.04-3.99 15.04-11.97s-6.6-11.97-15.19-11.97h-7.06v23.94h7.21Zm54.78 60.46h-39.44l-21.79-35.45h-.77v35.45h-33.45V2.69h40.82c28.7 0 48.64 12.74 48.64 39.9 0 10.74-4.76 26.39-23.79 34.37l29.77 40.36Z"></path>
+        </g>
+      </svg></a>
+      <div class="cta-wrapper">
+          
+          
+          
+          <div class="markets-insider-search-box" data-component-type="markets-insider-search-box" data-load-strategy="lazy">
+            <form class="search-box-form" action="https://www.businessinsider.com/answers#" method="GET">
+              <input id="" name="_search" class="search-box-input label-xl-subtle" value="" placeholder="Search markets" autocomplete="off" type="text" autocapitalize="off">
+              <input type="submit" value="Press here to search" class="search-button " data-track-click="{&quot;product_field&quot;:&quot;search&quot;,&quot;event&quot;:&quot;navigation&quot;,&quot;element_name&quot;:&quot;masthead&quot;,&quot;click_path&quot;:&quot;https://www.businessinsider.com/answers&quot;,&quot;click_text&quot;:&quot;bi_value_unassigned&quot;}">
+          
+              <div class="search-icon-wrapper">
+                <svg aria-hidden="true" focusable="false" class="svg-icon search-icon " xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+                  <path fill="currentColor" fill-rule="evenodd" d="M15.996 17.7a8.53 8.53 0 0 1-4.466 1.253c-4.711 0-8.53-3.795-8.53-8.477C3 5.795 6.819 2 11.53 2c4.71 0 8.53 3.795 8.53 8.476 0 2.156-.81 4.124-2.143 5.62l3.583 4.318L19.564 22l-3.568-4.3Zm1.555-7.224c0 3.305-2.696 5.984-6.021 5.984-3.325 0-6.021-2.679-6.021-5.984 0-3.304 2.696-5.983 6.02-5.983 3.326 0 6.022 2.679 6.022 5.983Z"></path>
+                </svg>    </div>
+          
+              <div class="markets-insider-search-box-results">
+                <div class="search-box-results"></div>
+              </div>
+            </form>
+          </div>
+    
+          <a class="markets-insider-my-watchlist label-md-strong" data-component-type="markets-insider-my-watchlist" data-load-strategy="lazy" href="https://markets.businessinsider.com/mymarkets?originurl=/" data-track-click="{&quot;product_field&quot;:&quot;watchlist&quot;,&quot;event&quot;:&quot;navigation&quot;,&quot;element_name&quot;:&quot;masthead&quot;}">
+            My Markets Watchlist
+          </a>
+    
+          <button class="menu-button" title="Open menu" aria-label="Open menu" data-menu-toggle="" data-interaction-trigger="hamburger-menu,account-icon,my-insider,answers-search-box" data-interaction-click-trigger="hamburger-menu" data-track-click="{&quot;product_field&quot;:&quot;hamburger_menu&quot;,&quot;event&quot;:&quot;navigation&quot;,&quot;element_name&quot;:&quot;masthead&quot;,&quot;click_text&quot;:&quot;bi_value_unassigned&quot;,&quot;click_path&quot;:&quot;bi_value_unassigned&quot;}">
+            <svg aria-hidden="true" focusable="false" class="svg-icon menu-icon " xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+              <path fill="currentColor" stroke="currentColor" d="M2.5 5.5h19v1.414h-19V5.5Zm0 5.793h19v1.414h-19v-1.414Zm0 7.207v-1.414h19V18.5h-19Z"></path>
+            </svg>      </button>
+      </div>
+
+  </section>
+
+
+
+
+    <section class="bottom-section grid-lines with-markets-insider-banner">
+      
+    
+    
+    <div class="markets-insider-banner" data-component-type="markets-insider-banner">
+    
+    <div class="marquee" data-component-type="marquee" data-scroll-type="loop">
+      <div class="marquee-wrapper">
+        <div class="marquee-scroller">
+              <div class="banner-asset-wrapper"></div>
+        </div>
+      </div>
+    </div>  
+    </div>
+    </section>
+
+  
+    
+      
+      
+  
+  <section class="vertical-nav grid-lines is-mi with-post-overline" data-component-type="vertical-nav" data-load-strategy="lazy">
+<div class="post-overline-wrapper">
+  <div class="post-overline label-sm is-mi" data-component-type="post-overline" data-load-strategy="exclude">
+      <span class="breadcrumbs-wrapper caps strong ">
+          <a href="/" class="breadcrumb " data-track-click="{&quot;product_field&quot;:&quot;markets&quot;,&quot;element_name&quot;:&quot;breadcrumbs&quot;,&quot;event&quot;:&quot;navigation&quot;}">
+            Markets
+          </a>
+            <svg aria-hidden="true" focusable="false" class="svg-icon chevron-right-icon breadcrumbs-chevron" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+              <path fill="currentColor" fill-rule="evenodd" d="m5.5 4.56 7.72 7.486-7.626 7.394L8.234 22 18.5 12.046 8.14 2 5.5 4.56Z"></path>
+            </svg>    <a href="/commodities" class="breadcrumb " data-track-click="{&quot;product_field&quot;:&quot;commodities&quot;,&quot;element_name&quot;:&quot;breadcrumbs&quot;,&quot;event&quot;:&quot;navigation&quot;}">
+            Commodities
+          </a>
+      </span>      </div>
+</div>
+
+
+    
+
+  </section>
+
+
+    
+
+
+</header>
+
+
+  
+  
+  
+  <nav class="hamburger-menu" data-component-type="hamburger-menu" data-load-strategy="interaction">
+    <section class="hamburger-menu-content">
+      <div class="hamburger-menu-top">
+        <a class="monogram-tap-target" href="https://www.businessinsider.com/" title="Business Insider" data-track-click="{&quot;click_text&quot;:&quot;Business Insider&quot;,&quot;product_field&quot;:&quot;other&quot;,&quot;element_name&quot;:&quot;hamburger_menu&quot;,&quot;event&quot;:&quot;navigation&quot;}">
+          <svg class="svg-icon logo-monogram " xmlns="http://www.w3.org/2000/svg" width="147.4" height="120" viewBox="0 0 147.4 120">
+            <g class="logo-monogram-path" fill="currentColor" fill-rule="evenodd">
+              <path d="M0 0h51.4C80 0 94.9 14.8 94.9 32.9s-7.1 21-16.9 25.5v.3c12.5 4.5 19.6 14.5 19.6 27.2 0 18.2-14 34.1-44.2 34.1H0V0Zm49.8 47.6c8.5 0 12.4-4.3 12.4-9.2s-3.9-9.3-12.4-9.3H34.7v18.5h15.1Zm.5 43.3c9 0 13.3-4.3 13.3-10s-4.5-10-13.2-10H34.7v19.9h15.6ZM112.4 0h35v120h-35V0Z"></path>
+            </g>
+          </svg>      </a>
+        <button class="close-button" title="Close menu" aria-label="Close menu" data-menu-toggle="" data-track-click="{&quot;product_field&quot;:&quot;close&quot;,&quot;event&quot;:&quot;navigation&quot;,&quot;element_name&quot;:&quot;hamburger_menu&quot;,&quot;click_text&quot;:&quot;bi_value_unassigned&quot;,&quot;click_path&quot;:&quot;bi_value_unassigned&quot;}">
+          <span class="close-button-background">
+            <svg aria-hidden="true" focusable="false" class="svg-icon close-icon " xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+              <path fill="currentColor" d="M21 5.394 18.606 3 12 9.606 5.394 3 3 5.394 9.606 12 3 18.606 5.394 21 12 14.394 18.606 21 21 18.606 14.394 12 21 5.394Z"></path>
+            </svg>        </span>
+        </button>
+      </div>
+  
+      
+      <div class="answers-search-box" data-component-type="answers-search-box" data-load-strategy="interaction" data-tracking-area="hamburger">
+        <form class="input-holder" method="get" action="/answers">
+          <div class="input-holder-inner">
+            <input type="text" class="js-search-input" placeholder="Search Business Insider">
+            <button class="inline-button" title="Search BI" aria-label="Search BI"><svg aria-hidden="true" focusable="false" class="svg-icon search-icon " xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+        <path fill="currentColor" d="M19.475 9.275a8.415 8.415 0 0 1-2.058 6.82L21 20.414 19.064 22l-3.568-4.3a8.53 8.53 0 0 1-4.466 1.253c-4.711 0-8.53-3.795-8.53-8.477C2.5 5.795 6.319 2 11.03 2c.396 0 .786.027 1.167.079l-.549 1.069-2.716 1.395c-.335.173-.6.41-.794.684a5.977 5.977 0 0 0-3.13 5.25c0 3.304 2.697 5.983 6.022 5.983a6.025 6.025 0 0 0 5.298-3.138c.251-.19.468-.441.629-.754l1.395-2.716 1.123-.577Z"></path>
+      
+        <path fill="#002AFF" d="M14.822 1.346a.2.2 0 0 1 .356 0l1.66 3.23a.2.2 0 0 0 .086.087l3.23 1.66a.2.2 0 0 1 0 .355l-3.23 1.66a.2.2 0 0 0-.087.086l-1.66 3.23a.2.2 0 0 1-.355 0l-1.66-3.23a.2.2 0 0 0-.086-.087l-3.23-1.66a.2.2 0 0 1 0-.355l3.23-1.66a.2.2 0 0 0 .087-.086l1.66-3.23Z"></path>
+      </svg></button>
+          </div>
+          <button class="big-button">Search</button>
+        </form>
+      </div>
+      <section class="hamburger-menu-vertical-lists" data-track-click-shared="{&quot;product_field&quot;:&quot;vertical&quot;,&quot;event&quot;:&quot;navigation&quot;,&quot;element_name&quot;:&quot;hamburger_menu&quot;}">
+        
+        
+        
+        
+        <div class="accordion level-0" data-component-type="accordion" data-load-strategy="exclude" data-group="menu" data-level="0" data-track-click-shared="{&quot;element_name&quot;:&quot;hamburger_menu&quot;,&quot;event&quot;:&quot;navigation&quot;,&quot;product_field&quot;:&quot;vertical&quot;}" data-type="ajax">
+            <div class="accordion-row">
+                <span class="accordion-item headline-medium ">
+                    <button class="accordion-button headline-medium" title="Expand menu" aria-label="Expand menu"><svg aria-hidden="true" focusable="false" class="svg-icon chevron-down-icon " xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+          <path fill="currentColor" fill-rule="evenodd" d="m19.44 5.5-7.486 7.72L4.56 5.594 2 8.234 11.954 18.5 22 8.14 19.44 5.5Z"></path>
+        </svg></button>
+        
+                    <a class="accordion-link headline-medium  with-nested-accordion" href="https://www.businessinsider.com/business" data-track-click="">Business</a>
+                </span>
+        
+                  
+                  
+                  
+                  
+                  <div class="accordion level-1" data-component-type="accordion" data-load-strategy="exclude" data-group="menu" data-level="1">
+                      <div class="accordion-row">
+                          <span class="accordion-item headline-medium ">
+                  
+                              <a class="accordion-link headline-medium " href="https://www.businessinsider.com/strategy" data-track-click="">Strategy</a>
+                          </span>
+                  
+                      </div>
+                      <div class="accordion-row">
+                          <span class="accordion-item headline-medium ">
+                  
+                              <a class="accordion-link headline-medium " href="https://www.businessinsider.com/economy" data-track-click="">Economy</a>
+                          </span>
+                  
+                      </div>
+                      <div class="accordion-row">
+                          <span class="accordion-item headline-medium ">
+                  
+                              <a class="accordion-link headline-medium " href="https://www.businessinsider.com/finance" data-track-click="">Finance</a>
+                          </span>
+                  
+                      </div>
+                      <div class="accordion-row">
+                          <span class="accordion-item headline-medium ">
+                  
+                              <a class="accordion-link headline-medium " href="https://www.businessinsider.com/retail" data-track-click="">Retail</a>
+                          </span>
+                  
+                      </div>
+                      <div class="accordion-row">
+                          <span class="accordion-item headline-medium ">
+                  
+                              <a class="accordion-link headline-medium " href="https://www.businessinsider.com/advertising" data-track-click="">Advertising</a>
+                          </span>
+                  
+                      </div>
+                      <div class="accordion-row">
+                          <span class="accordion-item headline-medium ">
+                  
+                              <a class="accordion-link headline-medium " href="https://www.businessinsider.com/careers" data-track-click="">Careers</a>
+                          </span>
+                  
+                      </div>
+                      <div class="accordion-row">
+                          <span class="accordion-item headline-medium ">
+                  
+                              <a class="accordion-link headline-medium " href="https://www.businessinsider.com/law" data-track-click="">Law</a>
+                          </span>
+                  
+                      </div>
+                      <div class="accordion-row">
+                          <span class="accordion-item headline-medium ">
+                  
+                              <a class="accordion-link headline-medium " href="https://www.businessinsider.com/media" data-track-click="">Media</a>
+                          </span>
+                  
+                      </div>
+                      <div class="accordion-row">
+                          <span class="accordion-item headline-medium ">
+                  
+                              <a class="accordion-link headline-medium " href="https://www.businessinsider.com/real-estate" data-track-click="">Real Estate</a>
+                          </span>
+                  
+                      </div>
+                      <div class="accordion-row">
+                          <span class="accordion-item headline-medium ">
+                  
+                              <a class="accordion-link headline-medium " href="https://www.businessinsider.com/smallbusiness" data-track-click="">Small Business</a>
+                          </span>
+                  
+                      </div>
+                      <div class="accordion-row">
+                          <span class="accordion-item headline-medium ">
+                  
+                              <a class="accordion-link headline-medium " href="https://www.businessinsider.com/sc/introducing-the-better-work-project-hub" data-track-click="">The Better Work Project</a>
+                          </span>
+                  
+                      </div>
+                      <div class="accordion-row">
+                          <span class="accordion-item headline-medium ">
+                  
+                              <a class="accordion-link headline-medium " href="https://www.businessinsider.com/personal-finance" data-track-click="">Personal Finance</a>
+                          </span>
+                  
+                      </div>
+                  </div>    </div>
+            <div class="accordion-row">
+                <span class="accordion-item headline-medium ">
+                    <button class="accordion-button headline-medium" title="Expand menu" aria-label="Expand menu"><svg aria-hidden="true" focusable="false" class="svg-icon chevron-down-icon " xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+          <path fill="currentColor" fill-rule="evenodd" d="m19.44 5.5-7.486 7.72L4.56 5.594 2 8.234 11.954 18.5 22 8.14 19.44 5.5Z"></path>
+        </svg></button>
+        
+                    <a class="accordion-link headline-medium  with-nested-accordion" href="https://www.businessinsider.com/tech" data-track-click="">Tech</a>
+                </span>
+        
+                  
+                  
+                  
+                  
+                  <div class="accordion level-1" data-component-type="accordion" data-load-strategy="exclude" data-group="menu" data-level="1">
+                      <div class="accordion-row">
+                          <span class="accordion-item headline-medium ">
+                  
+                              <a class="accordion-link headline-medium " href="https://www.businessinsider.com/science" data-track-click="">Science</a>
+                          </span>
+                  
+                      </div>
+                      <div class="accordion-row">
+                          <span class="accordion-item headline-medium ">
+                  
+                              <a class="accordion-link headline-medium " href="https://www.businessinsider.com/artificial-intelligence" data-track-click="">AI</a>
+                          </span>
+                  
+                      </div>
+                      <div class="accordion-row">
+                          <span class="accordion-item headline-medium ">
+                  
+                              <a class="accordion-link headline-medium " href="https://www.businessinsider.com/enterprise" data-track-click="">Enterprise</a>
+                          </span>
+                  
+                      </div>
+                      <div class="accordion-row">
+                          <span class="accordion-item headline-medium ">
+                  
+                              <a class="accordion-link headline-medium " href="https://www.businessinsider.com/transportation" data-track-click="">Transportation</a>
+                          </span>
+                  
+                      </div>
+                      <div class="accordion-row">
+                          <span class="accordion-item headline-medium ">
+                  
+                              <a class="accordion-link headline-medium " href="https://www.businessinsider.com/startups" data-track-click="">Startups</a>
+                          </span>
+                  
+                      </div>
+                      <div class="accordion-row">
+                          <span class="accordion-item headline-medium ">
+                  
+                              <a class="accordion-link headline-medium " href="https://www.businessinsider.com/innovation" data-track-click="">Innovation</a>
+                          </span>
+                  
+                      </div>
+                  </div>    </div>
+            <div class="accordion-row">
+                <span class="accordion-item headline-medium ">
+                    <button class="accordion-button headline-medium" title="Expand menu" aria-label="Expand menu"><svg aria-hidden="true" focusable="false" class="svg-icon chevron-down-icon " xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+          <path fill="currentColor" fill-rule="evenodd" d="m19.44 5.5-7.486 7.72L4.56 5.594 2 8.234 11.954 18.5 22 8.14 19.44 5.5Z"></path>
+        </svg></button>
+        
+                    <a class="accordion-link headline-medium  with-nested-accordion" href="/" data-track-click="">Markets</a>
+                </span>
+        
+                  
+                  
+                  
+                  
+                  <div class="accordion level-1" data-component-type="accordion" data-load-strategy="exclude" data-group="menu" data-level="1">
+                      <div class="accordion-row">
+                          <span class="accordion-item headline-medium ">
+                  
+                              <a class="accordion-link headline-medium " href="https://www.businessinsider.com/markets" data-track-click="">News</a>
+                          </span>
+                  
+                      </div>
+                      <div class="accordion-row">
+                          <span class="accordion-item headline-medium ">
+                  
+                              <a class="accordion-link headline-medium " href="/stocks" data-track-click="">Stocks</a>
+                          </span>
+                  
+                      </div>
+                      <div class="accordion-row">
+                          <span class="accordion-item headline-medium ">
+                  
+                              <a class="accordion-link headline-medium " href="/indices" data-track-click="">Indices</a>
+                          </span>
+                  
+                      </div>
+                      <div class="accordion-row">
+                          <span class="accordion-item headline-medium ">
+                  
+                              <a class="accordion-link headline-medium " href="/commodities" data-track-click="">Commodities</a>
+                          </span>
+                  
+                      </div>
+                      <div class="accordion-row">
+                          <span class="accordion-item headline-medium ">
+                  
+                              <a class="accordion-link headline-medium " href="/cryptocurrencies" data-track-click="">Crypto</a>
+                          </span>
+                  
+                      </div>
+                      <div class="accordion-row">
+                          <span class="accordion-item headline-medium ">
+                  
+                              <a class="accordion-link headline-medium " href="/currencies" data-track-click="">Currencies</a>
+                          </span>
+                  
+                      </div>
+                      <div class="accordion-row">
+                          <span class="accordion-item headline-medium ">
+                  
+                              <a class="accordion-link headline-medium " href="/etfs" data-track-click="">ETFs</a>
+                          </span>
+                  
+                      </div>
+                  </div>    </div>
+            <div class="accordion-row">
+                <span class="accordion-item headline-medium ">
+                    <button class="accordion-button headline-medium" title="Expand menu" aria-label="Expand menu"><svg aria-hidden="true" focusable="false" class="svg-icon chevron-down-icon " xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+          <path fill="currentColor" fill-rule="evenodd" d="m19.44 5.5-7.486 7.72L4.56 5.594 2 8.234 11.954 18.5 22 8.14 19.44 5.5Z"></path>
+        </svg></button>
+        
+                    <a class="accordion-link headline-medium  with-nested-accordion" href="https://www.businessinsider.com/lifestyle" data-track-click="">Lifestyle</a>
+                </span>
+        
+                  
+                  
+                  
+                  
+                  <div class="accordion level-1" data-component-type="accordion" data-load-strategy="exclude" data-group="menu" data-level="1">
+                      <div class="accordion-row">
+                          <span class="accordion-item headline-medium ">
+                  
+                              <a class="accordion-link headline-medium " href="https://www.businessinsider.com/entertainment" data-track-click="">Entertainment</a>
+                          </span>
+                  
+                      </div>
+                      <div class="accordion-row">
+                          <span class="accordion-item headline-medium ">
+                  
+                              <a class="accordion-link headline-medium " href="https://www.businessinsider.com/culture" data-track-click="">Culture</a>
+                          </span>
+                  
+                      </div>
+                      <div class="accordion-row">
+                          <span class="accordion-item headline-medium ">
+                  
+                              <a class="accordion-link headline-medium " href="https://www.businessinsider.com/travel" data-track-click="">Travel</a>
+                          </span>
+                  
+                      </div>
+                      <div class="accordion-row">
+                          <span class="accordion-item headline-medium ">
+                  
+                              <a class="accordion-link headline-medium " href="https://www.businessinsider.com/food" data-track-click="">Food</a>
+                          </span>
+                  
+                      </div>
+                      <div class="accordion-row">
+                          <span class="accordion-item headline-medium ">
+                  
+                              <a class="accordion-link headline-medium " href="https://www.businessinsider.com/health" data-track-click="">Health</a>
+                          </span>
+                  
+                      </div>
+                      <div class="accordion-row">
+                          <span class="accordion-item headline-medium ">
+                  
+                              <a class="accordion-link headline-medium " href="https://www.businessinsider.com/education" data-track-click="">Education</a>
+                          </span>
+                  
+                      </div>
+                      <div class="accordion-row">
+                          <span class="accordion-item headline-medium ">
+                  
+                              <a class="accordion-link headline-medium " href="https://www.businessinsider.com/parenting" data-track-click="">Parenting</a>
+                          </span>
+                  
+                      </div>
+                  </div>    </div>
+            <div class="accordion-row">
+                <span class="accordion-item headline-medium ">
+                    <button class="accordion-button headline-medium" title="Expand menu" aria-label="Expand menu"><svg aria-hidden="true" focusable="false" class="svg-icon chevron-down-icon " xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+          <path fill="currentColor" fill-rule="evenodd" d="m19.44 5.5-7.486 7.72L4.56 5.594 2 8.234 11.954 18.5 22 8.14 19.44 5.5Z"></path>
+        </svg></button>
+        
+                    <a class="accordion-link headline-medium  with-nested-accordion" href="https://www.businessinsider.com/defense" data-track-click="">Military &amp; Defense</a>
+                </span>
+        
+                  
+                  
+                  
+                  
+                  <div class="accordion level-1" data-component-type="accordion" data-load-strategy="exclude" data-group="menu" data-level="1">
+                      <div class="accordion-row">
+                          <span class="accordion-item headline-medium ">
+                  
+                              <a class="accordion-link headline-medium " href="https://www.businessinsider.com/politics" data-track-click="">Politics</a>
+                          </span>
+                  
+                      </div>
+                  </div>    </div>
+            <div class="accordion-row">
+                <span class="accordion-item headline-medium ">
+                    <button class="accordion-button headline-medium" title="Expand menu" aria-label="Expand menu"><svg aria-hidden="true" focusable="false" class="svg-icon chevron-down-icon " xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+          <path fill="currentColor" fill-rule="evenodd" d="m19.44 5.5-7.486 7.72L4.56 5.594 2 8.234 11.954 18.5 22 8.14 19.44 5.5Z"></path>
+        </svg></button>
+        
+                    <a class="accordion-link headline-medium  with-nested-accordion" href="https://www.businessinsider.com/guides" data-track-click="">Reviews</a>
+                </span>
+        
+                  
+                  
+                  
+                  
+                  <div class="accordion level-1" data-component-type="accordion" data-load-strategy="exclude" data-group="menu" data-level="1">
+                      <div class="accordion-row">
+                          <span class="accordion-item headline-medium ">
+                  
+                              <a class="accordion-link headline-medium " href="/guides/home" data-track-click="">Home</a>
+                          </span>
+                  
+                      </div>
+                      <div class="accordion-row">
+                          <span class="accordion-item headline-medium ">
+                  
+                              <a class="accordion-link headline-medium " href="/guides/kitchen" data-track-click="">Kitchen</a>
+                          </span>
+                  
+                      </div>
+                      <div class="accordion-row">
+                          <span class="accordion-item headline-medium ">
+                  
+                              <a class="accordion-link headline-medium " href="/guides/style" data-track-click="">Style</a>
+                          </span>
+                  
+                      </div>
+                      <div class="accordion-row">
+                          <span class="accordion-item headline-medium ">
+                  
+                              <a class="accordion-link headline-medium " href="/guides/streaming" data-track-click="">Streaming</a>
+                          </span>
+                  
+                      </div>
+                      <div class="accordion-row">
+                          <span class="accordion-item headline-medium ">
+                  
+                              <a class="accordion-link headline-medium " href="/guides/pets" data-track-click="">Pets</a>
+                          </span>
+                  
+                      </div>
+                      <div class="accordion-row">
+                          <span class="accordion-item headline-medium ">
+                  
+                              <a class="accordion-link headline-medium " href="/guides/tech" data-track-click="">Tech</a>
+                          </span>
+                  
+                      </div>
+                      <div class="accordion-row">
+                          <span class="accordion-item headline-medium ">
+                  
+                              <a class="accordion-link headline-medium " href="/guides/deals" data-track-click="">Deals</a>
+                          </span>
+                  
+                      </div>
+                      <div class="accordion-row">
+                          <span class="accordion-item headline-medium ">
+                  
+                              <a class="accordion-link headline-medium " href="/guides/gifts" data-track-click="">Gifts</a>
+                          </span>
+                  
+                      </div>
+                      <div class="accordion-row">
+                          <span class="accordion-item headline-medium ">
+                  
+                              <a class="accordion-link headline-medium " href="/guides/tickets" data-track-click="">Tickets</a>
+                          </span>
+                  
+                      </div>
+                  </div>    </div>
+            <div class="accordion-row">
+                <span class="accordion-item headline-medium ">
+                    <button class="accordion-button headline-medium" title="Expand menu" aria-label="Expand menu"><svg aria-hidden="true" focusable="false" class="svg-icon chevron-down-icon " xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+          <path fill="currentColor" fill-rule="evenodd" d="m19.44 5.5-7.486 7.72L4.56 5.594 2 8.234 11.954 18.5 22 8.14 19.44 5.5Z"></path>
+        </svg></button>
+        
+                    <a class="accordion-link headline-medium  with-nested-accordion" href="https://www.businessinsider.com/video" data-track-click="">Video</a>
+                </span>
+        
+                  
+                  
+                  
+                  
+                  <div class="accordion level-1" data-component-type="accordion" data-load-strategy="exclude" data-group="menu" data-level="1">
+                      <div class="accordion-row">
+                          <span class="accordion-item headline-medium ">
+                  
+                              <a class="accordion-link headline-medium " href="https://www.businessinsider.com/show/big-business" data-track-click="">Big Business</a>
+                          </span>
+                  
+                      </div>
+                      <div class="accordion-row">
+                          <span class="accordion-item headline-medium ">
+                  
+                              <a class="accordion-link headline-medium " href="https://www.businessinsider.com/show/so-expensive" data-track-click="">So Expensive</a>
+                          </span>
+                  
+                      </div>
+                      <div class="accordion-row">
+                          <span class="accordion-item headline-medium ">
+                  
+                              <a class="accordion-link headline-medium " href="https://www.businessinsider.com/show/view-from-above" data-track-click="">View From Above</a>
+                          </span>
+                  
+                      </div>
+                      <div class="accordion-row">
+                          <span class="accordion-item headline-medium ">
+                  
+                              <a class="accordion-link headline-medium " href="https://www.businessinsider.com/show/small-business" data-track-click="">Small Business</a>
+                          </span>
+                  
+                      </div>
+                      <div class="accordion-row">
+                          <span class="accordion-item headline-medium ">
+                  
+                              <a class="accordion-link headline-medium " href="https://www.businessinsider.com/show/authorized-account" data-track-click="">Authorized Account</a>
+                          </span>
+                  
+                      </div>
+                      <div class="accordion-row">
+                          <span class="accordion-item headline-medium ">
+                  
+                              <a class="accordion-link headline-medium " href="https://www.businessinsider.com/show/risky-business" data-track-click="">Risky Business</a>
+                          </span>
+                  
+                      </div>
+                      <div class="accordion-row">
+                          <span class="accordion-item headline-medium ">
+                  
+                              <a class="accordion-link headline-medium " href="https://www.businessinsider.com/show/boot-camp" data-track-click="">Boot Camp</a>
+                          </span>
+                  
+                      </div>
+                      <div class="accordion-row">
+                          <span class="accordion-item headline-medium ">
+                  
+                              <a class="accordion-link headline-medium " href="https://www.businessinsider.com/show/still-standing" data-track-click="">Still Standing</a>
+                          </span>
+                  
+                      </div>
+                      <div class="accordion-row">
+                          <span class="accordion-item headline-medium ">
+                  
+                              <a class="accordion-link headline-medium " href="https://www.businessinsider.com/show/how-crime-works" data-track-click="">How Crime Works</a>
+                          </span>
+                  
+                      </div>
+                      <div class="accordion-row">
+                          <span class="accordion-item headline-medium ">
+                  
+                              <a class="accordion-link headline-medium " href="https://www.businessinsider.com/show/life-lessons" data-track-click="">Life Lessons</a>
+                          </span>
+                  
+                      </div>
+                  </div>    </div>
+            <div class="accordion-row">
+                <span class="accordion-item headline-medium ">
+        
+                    <a class="accordion-link headline-medium " href="https://www.businessinsider.com/level-up" data-track-click="">Level Up</a>
+                </span>
+        
+            </div>
+            <div class="accordion-row">
+                <span class="accordion-item headline-medium ">
+        
+                    <a class="accordion-link headline-medium " href="https://www.businessinsider.com/community" data-track-click="">Community</a>
+                </span>
+        
+            </div>
+            <div class="accordion-row">
+                <span class="accordion-item headline-medium ">
+                    <button class="accordion-button headline-medium" title="Expand menu" aria-label="Expand menu"><svg aria-hidden="true" focusable="false" class="svg-icon chevron-down-icon " xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+          <path fill="currentColor" fill-rule="evenodd" d="m19.44 5.5-7.486 7.72L4.56 5.594 2 8.234 11.954 18.5 22 8.14 19.44 5.5Z"></path>
+        </svg></button>
+        
+                    <a class="accordion-link headline-medium  with-nested-accordion" href="https://www.businessinsider.com/games" data-track-click="{&quot;product_field&quot;:&quot;games&quot;}">Games</a>
+                </span>
+        
+                  
+                  
+                  
+                  
+                  <div class="accordion level-1" data-component-type="accordion" data-load-strategy="exclude" data-group="menu" data-level="1">
+                      <div class="accordion-row">
+                          <span class="accordion-item headline-medium ">
+                  
+                              <a class="accordion-link headline-medium " href="https://www.businessinsider.com/games/boxed" data-track-click="{&quot;product_field&quot;:&quot;games&quot;}">Boxed</a>
+                          </span>
+                  
+                      </div>
+                      <div class="accordion-row">
+                          <span class="accordion-item headline-medium ">
+                  
+                              <a class="accordion-link headline-medium " href="https://www.businessinsider.com/games/pipeline" data-track-click="{&quot;product_field&quot;:&quot;games&quot;}">Pipeline</a>
+                          </span>
+                  
+                      </div>
+                      <div class="accordion-row">
+                          <span class="accordion-item headline-medium ">
+                  
+                              <a class="accordion-link headline-medium " href="https://www.businessinsider.com/games/knighthop" data-track-click="{&quot;product_field&quot;:&quot;games&quot;}">Knighthop</a>
+                          </span>
+                  
+                      </div>
+                      <div class="accordion-row">
+                          <span class="accordion-item headline-medium ">
+                  
+                              <a class="accordion-link headline-medium " href="https://www.businessinsider.com/games/tally" data-track-click="{&quot;product_field&quot;:&quot;games&quot;}">Tally</a>
+                          </span>
+                  
+                      </div>
+                  </div>    </div>
+        </div>    </section>
+  
+    </section>
+  
+    <footer class="hamburger-menu-footer">
+      
+      <div class="social-media-follow" data-e2e-name="social-links" data-track-click-shared="{&quot;click_type&quot;:&quot;owned_socials&quot;,&quot;element_name&quot;:&quot;hamburger_menu&quot;,&quot;event&quot;:&quot;outbound_click&quot;}">
+          <a class="social-link as-facebook" href="https://www.facebook.com/MrktsInsider" label="facebook" title="Follow us on Facebook" aria-label="Click to visit us on Facebook" data-track-click="{&quot;click_text&quot;:&quot;facebook&quot;}" data-e2e-name="facebook" target="_blank" rel="noopener nofollow">
+            <svg aria-hidden="true" focusable="false" class="svg-icon social-facebook-icon " xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+              <path fill="currentColor" d="M22 12.037C22 6.494 17.523 2 12 2S2 6.494 2 12.037c0 4.707 3.229 8.656 7.584 9.741v-6.674H7.522v-3.067h2.062v-1.322c0-3.416 1.54-5 4.882-5 .634 0 1.727.125 2.174.25v2.78a12.807 12.807 0 0 0-1.155-.037c-1.64 0-2.273.623-2.273 2.244v1.085h3.266l-.561 3.067h-2.705V22C18.163 21.4 22 17.168 22 12.037Z"></path>
+            </svg>    </a>
+          <a class="social-link as-x" href="https://x.com/mktsinsider" label="x" title="Follow us on X" aria-label="Click to visit us on X" data-track-click="{&quot;click_text&quot;:&quot;x&quot;}" data-e2e-name="x" target="_blank" rel="noopener nofollow">
+            <svg aria-hidden="true" focusable="false" class="svg-icon social-x-icon " xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+              <path fill="currentColor" d="M17.751 3h3.067l-6.7 7.625L22 21h-6.172l-4.833-6.293L5.464 21h-3.07l7.167-8.155L2 3h6.328l4.37 5.752L17.75 3Zm-1.076 16.172h1.7L7.404 4.732H5.58l11.094 14.44Z"></path>
+            </svg>    </a>
+          <a class="social-link as-linkedin" href="https://www.linkedin.com/company/businessinsider/" label="linkedin" title="Follow us on LinkedIn" aria-label="Click to visit us on LinkedIn" data-track-click="{&quot;click_text&quot;:&quot;linkedin&quot;}" data-e2e-name="linkedin" target="_blank" rel="noopener nofollow">
+            <svg aria-hidden="true" focusable="false" class="svg-icon social-linkedin-icon " xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+              <path fill="currentColor" fill-rule="evenodd" d="M4 2a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H4Zm4.339 4.606a1.627 1.627 0 1 1-3.254 0 1.627 1.627 0 0 1 3.254 0Zm-.221 2.867H5.13v9.335h2.988V9.473Zm4.517 0H9.662v9.335h2.943V13.91c0-2.729 3.461-2.982 3.461 0v4.9h2.849v-5.914c0-4.6-5.07-4.43-6.31-2.17l.03-1.252Z"></path>
+            </svg>    </a>
+          <a class="social-link as-youtube" href="https://www.youtube.com/user/businessinsider" label="youtube" title="Follow us on YouTube" aria-label="Click to visit us on YouTube" data-track-click="{&quot;click_text&quot;:&quot;youtube&quot;}" data-e2e-name="youtube" target="_blank" rel="noopener nofollow">
+            <svg aria-hidden="true" focusable="false" class="svg-icon social-youtube-icon " xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+              <path fill="currentColor" d="M11.732 5.5c.508.003 1.777.014 3.126.064l.478.019c1.358.06 2.715.16 3.388.333.898.232 1.604.91 1.842 1.77.38 1.364.427 4.026.433 4.67l.001.134v.153c-.007.644-.054 3.307-.434 4.671-.242.862-.947 1.54-1.842 1.77-.673.172-2.03.273-3.388.332l-.478.02c-1.349.05-2.618.06-3.126.063l-.223.001h-.242c-1.074-.006-5.564-.05-6.992-.417-.898-.232-1.603-.91-1.842-1.769-.38-1.364-.427-4.027-.433-4.671v-.286c.006-.645.053-3.307.433-4.672.242-.862.947-1.54 1.842-1.769 1.428-.366 5.918-.41 6.992-.416h.465ZM9.6 9.937v5.125l5.2-2.562-5.2-2.563Z"></path>
+            </svg>    </a>
+          <a class="social-link as-instagram" href="https://www.instagram.com/businessinsider/?hl=en" label="instagram" title="Follow us on Instagram" aria-label="Click to visit us on Instagram" data-track-click="{&quot;click_text&quot;:&quot;instagram&quot;}" data-e2e-name="instagram" target="_blank" rel="noopener nofollow">
+            <svg aria-hidden="true" focusable="false" class="svg-icon social-instagram-icon " xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+              <path fill="currentColor" d="M7.858 2.07c-1.064.05-1.79.22-2.425.47-.658.256-1.215.6-1.77 1.156a4.899 4.899 0 0 0-1.15 1.772c-.246.637-.413 1.364-.46 2.429-.047 1.064-.057 1.407-.052 4.122.005 2.716.017 3.056.069 4.123.05 1.064.22 1.79.47 2.426.256.657.6 1.214 1.156 1.769a4.894 4.894 0 0 0 1.774 1.15c.636.245 1.363.413 2.428.46 1.064.046 1.407.057 4.122.052 2.715-.005 3.056-.017 4.123-.068 1.067-.05 1.79-.221 2.425-.47a4.901 4.901 0 0 0 1.769-1.156 4.9 4.9 0 0 0 1.15-1.774c.246-.636.413-1.363.46-2.427.046-1.067.057-1.408.052-4.123-.005-2.715-.018-3.056-.068-4.122-.05-1.067-.22-1.79-.47-2.427a4.91 4.91 0 0 0-1.156-1.769 4.88 4.88 0 0 0-1.773-1.15c-.637-.245-1.364-.413-2.428-.46-1.065-.045-1.407-.057-4.123-.052-2.716.005-3.056.017-4.123.069Zm.117 18.078c-.975-.043-1.504-.205-1.857-.34-.467-.18-.8-.398-1.152-.746a3.08 3.08 0 0 1-.75-1.149c-.137-.352-.302-.881-.347-1.856-.05-1.054-.06-1.37-.066-4.04-.006-2.67.004-2.986.05-4.04.042-.974.205-1.504.34-1.857.18-.468.397-.8.746-1.151a3.087 3.087 0 0 1 1.15-.75c.351-.138.88-.302 1.855-.348 1.054-.05 1.37-.06 4.04-.066 2.67-.006 2.986.004 4.041.05.974.043 1.505.204 1.857.34.467.18.8.397 1.151.746.352.35.568.682.75 1.15.138.35.302.88.348 1.855.05 1.054.062 1.37.066 4.04.005 2.669-.004 2.986-.05 4.04-.043.975-.205 1.504-.34 1.857a3.1 3.1 0 0 1-.747 1.152c-.349.35-.681.567-1.148.75-.352.137-.882.301-1.855.347-1.055.05-1.371.06-4.041.066-2.67.006-2.986-.005-4.04-.05m8.152-13.493a1.2 1.2 0 1 0 2.4-.003 1.2 1.2 0 0 0-2.4.003ZM6.865 12.01a5.134 5.134 0 1 0 10.27-.02 5.134 5.134 0 0 0-10.27.02Zm1.802-.004a3.334 3.334 0 1 1 6.667-.013 3.334 3.334 0 0 1-6.667.013Z"></path>
+            </svg>    </a>
+          <a class="social-link as-snapchat" href="" label="snapchat" title="Follow us on Snapchat" aria-label="Click to visit us on Snapchat" data-track-click="{&quot;click_text&quot;:&quot;snapchat&quot;}" data-e2e-name="snapchat" target="_blank" rel="noopener nofollow">
+            <svg aria-hidden="true" focusable="false" class="svg-icon social-snapchat-icon " xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+              <path fill="currentColor" d="M21.928 16.396c-.139-.364-.403-.56-.705-.721a1.757 1.757 0 0 0-.153-.078c-.09-.045-.182-.088-.273-.134-.94-.48-1.674-1.087-2.183-1.805a4.065 4.065 0 0 1-.374-.64c-.044-.12-.042-.189-.01-.25a.413.413 0 0 1 .12-.122c.161-.103.328-.207.44-.278.202-.125.361-.225.464-.295.386-.26.656-.537.824-.846a1.64 1.64 0 0 0 .087-1.399c-.256-.648-.891-1.051-1.66-1.051a2.368 2.368 0 0 0-.61.078c.007-.444-.003-.912-.044-1.373-.145-1.62-.733-2.47-1.346-3.147a5.337 5.337 0 0 0-1.37-1.062C14.206 2.76 13.15 2.5 12 2.5c-1.15 0-2.2.26-3.132.773-.515.28-.978.639-1.371 1.064-.614.678-1.202 1.528-1.347 3.147-.04.46-.051.932-.044 1.373a2.367 2.367 0 0 0-.609-.078c-.77 0-1.406.402-1.66 1.051a1.632 1.632 0 0 0 .084 1.4c.169.31.439.586.824.846.103.07.262.169.464.296l.423.267c.055.034.101.079.136.132.033.064.034.134-.014.262a4.02 4.02 0 0 1-.369.627c-.498.703-1.21 1.298-2.12 1.775-.481.246-.982.41-1.194.965-.16.419-.055.895.35 1.296.15.15.322.276.511.373.395.21.815.371 1.25.483.09.022.176.059.253.108.148.125.127.313.324.588.098.142.224.265.37.363.412.275.876.292 1.368.31.444.017.947.035 1.522.218.238.076.486.223.772.395.689.408 1.631.966 3.208.966 1.577 0 2.526-.561 3.22-.971.284-.169.53-.314.761-.388.575-.183 1.078-.201 1.522-.218.492-.018.956-.035 1.369-.31.172-.116.316-.268.42-.444.142-.232.139-.394.272-.508a.796.796 0 0 1 .237-.104 5.677 5.677 0 0 0 1.267-.487c.202-.104.383-.241.537-.405l.005-.006c.38-.392.475-.855.32-1.263Zm-1.401.727c-.855.455-1.423.406-1.865.68-.376.234-.154.737-.426.918-.336.223-1.326-.016-2.607.392-1.055.337-1.729 1.305-3.628 1.305-1.898 0-2.556-.966-3.63-1.308-1.277-.407-2.27-.168-2.605-.391-.273-.182-.051-.684-.426-.918-.443-.274-1.011-.225-1.866-.678-.544-.29-.235-.47-.054-.554 3.097-1.446 3.591-3.68 3.613-3.845.027-.2.056-.358-.173-.562-.22-.197-1.203-.783-1.475-.967-.45-.303-.649-.606-.503-.979.102-.258.352-.355.613-.355.083 0 .166.01.246.027.495.103.975.342 1.253.407a.457.457 0 0 0 .102.013c.148 0 .2-.072.19-.235-.032-.522-.108-1.54-.023-2.49.117-1.309.554-1.957 1.073-2.53.25-.275 1.421-1.47 3.662-1.47 2.24 0 3.415 1.19 3.665 1.464.52.573.957 1.222 1.073 2.53.085.95.011 1.968-.023 2.49-.012.172.042.235.19.235a.457.457 0 0 0 .102-.013c.278-.065.758-.304 1.253-.407a1.18 1.18 0 0 1 .246-.027c.263 0 .51.099.613.355.146.373-.051.676-.502.98-.273.183-1.254.768-1.475.966-.23.204-.2.362-.173.562.022.168.515 2.401 3.613 3.845.182.088.491.268-.053.56Z"></path>
+            </svg>    </a>
+      </div>
+    </footer>
+  </nav>
+
+</shared-component>
+
+	<!-- Markets Insider Page Content -->
+	<main class="site-content">
+	
+	<script type="application/ld+json">
+		{
+			"@context": "http://schema.org",
+			"@type": "BreadcrumbList",	"itemListElement":[
+                        {"@type": "ListItem","position": 0,"item": {"@type": "WebPage","@id": "/","name": " Markets"}}
+                            ,
+                        {"@type": "ListItem","position": 1,"item": {"@type": "WebPage","@id": "/commodities","name": " Commodities"}}
+                            ,
+                        {"@type": "ListItem","position": 2,"item": {"@type": "WebPage","@id": "/commodities/wheat-price","name": " Wheat"}}
+
+			]
+		}
+	</script>
+
+
+
+
+
+		
+
+
+
+
+<div>
+				<div class="site-content__row ">
+<div class="grid__col--12 grid__col--m-12 grid__col--s-12  site-content__col--spacer">
+		
+</div>
+				</div>
+					<div class="spacer-10"></div>
+				<div class="site-content__row graviton">
+<div class="site-content__col site-content__col--left">
+<div style="display: none"><input class="ajax-token" id="__atts" name="__atts" type="hidden" value="2026-09-21-09-24-11">
+<input class="ajax-token" id="__ath" name="__ath" type="hidden" value="tj8OMyEwawsGvs609NdfNaq9iwjHpD7m8HzkszUduW0=">
+<input class="ajax-token" id="__atcrv" name="__atcrv" type="hidden" value="((12129 * 27591) + 5708)">
+</div>
+
+
+<script>
+	window.priceSections = window.priceSections || {};
+	window.priceSections.configs = window.priceSections.configs || [];
+	window.priceSections.configs.push({
+		watchListId: '#watch-list-82595562fcf74370adf2362fe5c28f20',
+		regionSelector: '#price-section-82595562fcf74370adf2362fe5c28f20',
+		priceSection: {"label":"Wheat","symbol":null,"instrumentId":55434,"exchangeLabel":null,"currency":null,"category":" Price","relativeValue":-1.02,"absoluteValue":-2.8496000000000095,"currentValue":277.3356,"previousClose":280.1852,"roundedCurrent":2,"roundedAbsolute":2,"roundedRelative":2,"valuePushApi":{"pushApiLibrary":"clientApiHandler","pushIdentifier":"Y0101E4D0003494982","pushDataField":"Mid","pushRoomIdentifier":"RY0101E4D0003494982","template":"Mid","table":7,"time":null},"timePushApi":{"pushApiLibrary":"clientApiHandler","pushIdentifier":"Y0101E4D0003494982","pushDataField":"MidTimestamp","pushRoomIdentifier":"RY0101E4D0003494982","template":"MidTimestamp","table":1,"time":" 02:15:00 PM EDT 9/18/2026"},"preTimePushText":null,"postTimePushText":"MI Indication","timePushText":null,"time":" 02:15:00 PM EDT 9/18/2026","isFuture":false}
+	});
+
+	window.addInstrumentConfigs = window.addInstrumentConfigs || [];
+	window.addInstrumentConfigs.push({
+		config: {
+			loginUrl: '/mymarkets?r=%2fcommodities%2fwheat-price',
+			watchlistUrl: '/mymarkets/watchlist'
+		},
+    regionId: '82595562fcf74370adf2362fe5c28f20'
+	});
+</script>
+<div class="graviton">
+	<div class="price-section-with-button">
+		<div class="price-section-with-button__row">
+			<div class="price-section-with-button__price-section-col">
+				<section id="price-section-82595562fcf74370adf2362fe5c28f20" class="price-section price-section--negative">
+					<div class="price-section__row">
+						<h1 class="price-section__identifiers">
+							<span class="price-section__label">Wheat </span>
+							<span class="price-section__category"> Price</span>
+						</h1>
+						<div class="price-section__values">
+							<span class="price-section__current-value">277.3356</span>
+							<span class="price-section__breakpoint"></span>
+							<span class="price-section__absolute-value">-2.84960000000001</span>
+							<span class="price-section__relative-value">-1.02%</span>
+						</div>
+						<div class="price-section__additionals">
+							<span></span>
+							<span> 02:15:00 PM EDT 9/18/2026</span>
+							<span>MI Indication</span>
+						</div>
+					</div>
+				</section>
+			</div>
+			<div class="price-section-with-button__price-section-button-col">
+				<div class="price-section-with-button__button-grid grid">
+					<div class="price-section-with-button__container">
+						<div class="price-section-with-button__button-row price-section-with-button__buttons">
+							<button class="button price-section-with-button__fixed-width" data-add-instrument="82595562fcf74370adf2362fe5c28f20" data-add-instrument-label="Wheat" data-add-instrument-type="2" data-add-instrument-id="55434" data-add-instrument-isin="">Add to watchlist</button>
+							<div class="margin-top--xsmall price-section-with-button__fixed-width">
+								
+		<div class="htlad-button" data-htlad="true" data-unit="Markets-Insider/Commodities/Quote"></div>
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+				</div>
+				<div class="site-content__row graviton">
+<div class="site-content__col site-content__col--left"><style>
+    .left-rail-blackLine {
+        height: 24px;
+        border-bottom: 1px solid #111111;
+    }
+</style>
+<div class="graviton">
+    <div class="horizontal-line"></div>
+</div>
+<div id="lgPositionDetailChart"></div><div class="responsivePosition" id="DetailChart">﻿<div style="display: none"><input class="ajax-token" id="__atts" name="__atts" type="hidden" value="2026-09-21-09-24-11">
+<input class="ajax-token" id="__ath" name="__ath" type="hidden" value="6HWZS9GlUUcsEF1X9B7XZWVBkIbPVZat5WyCeV1wojc=">
+<input class="ajax-token" id="__atcrv" name="__atcrv" type="hidden" value="((9464 * 8701) + 6480)">
+</div>
+<style>
+	.stx_mountain_chart {
+		background: #01498a !important;
+		color: #01498a !important;
+		border: #01498a !important;
+		border-width: 1px;
+	}
+
+	.grecaptcha-badge {
+		display: none;
+	}
+</style>
+
+
+<script>
+    var detailChartViewmodel = { "ChartSource" : "300002", "ChartValor" : "25", "ChartExchange" : "0", "ChartCurrency" : "333", "TKData" : "300002,25,0,333", "ChartData" : null, "intradayTkData" : "300009,25,0,333", "InstrumentID" : 55434, "InstrumentTypeID" : 6, "InstrumentType" : "Commodity", "StockMarkets" : null, "Tabs" : [{ "Name" : "IntradayAvailability", "ShortName" : "Intraday" }, { "Name" : "OneWeek", "ShortName" : "1W" }, { "Name" : "OneMonth", "ShortName" : "1M" }, { "Name" : "ThreeMonths", "ShortName" : "3M" }, { "Name" : "SixMonths", "ShortName" : "6M" }, { "Name" : "YTD", "ShortName" : "YTD" }, { "Name" : "OneYear", "ShortName" : "1Y" }, { "Name" : "ThreeYears", "ShortName" : "3Y" }, { "Name" : "FiveYears", "ShortName" : "5Y" }, { "Name" : "TenYears", "ShortName" : "10Y" }, { "Name" : "Maximum", "ShortName" : "MAX" }], "PushIdentifier" : "Y0101E4D0003494982", "PushDataField" : "Mid", "StockUrl" : "/stocks/wheat-price/price", "Currency" : "USD", "StockMarketsExchanges" : null, "InstrumentName" : "wheat-price", "isOutOfMarketTime" : true, "isAmericanStock" : true, "isAsiaStock" : false, "intradayUrl" : null, "PreviousClose" : "280.1852", "AllwaysManipulatePreviuosClose" : true, "TabIdentifier" : null, "ChartNumber" : 0, "ActiveTab" : "OneYear", "HasIntradyData" : false, "Usedecimal" : false, "ChartCompare" : false };
+    detailChartViewmodel.token = { 'Ajax-Token-Timestamp': (document.querySelector('.ajax-token[name=__atts]') || {}).value, 'Ajax-Token-Hash': (document.querySelector('.ajax-token[name=__ath]') || {}).value, 'Ajax-Token-Challenge': window.eval((document.querySelector('.ajax-token[name=__atcrv]') || {}).value), '__atts': (document.querySelector('.ajax-token[name=__atts]') || {}).value, '__ath': (document.querySelector('.ajax-token[name=__ath]') || {}).value, '__atcrv': window.eval((document.querySelector('.ajax-token[name=__atcrv]') || {}).value) };
+	var utcOffset = -4;
+</script>
+
+<script>if (typeof grecaptcha === 'undefined') {grecaptcha = { ready: function(cb) {const c = '___grecaptcha_cfg';window[c] = window[c] || {};(window[c]['fns'] = window[c]['fns'] || []).push(cb);} };}</script><script async="" src="https://www.google.com/recaptcha/api.js?render=6LcC2FgsAAAAAFSikuMC07pGwnl1m6iAUAanTU9E"></script><script>grecaptcha.ready(function() {const captchaExecute = () => { return grecaptcha.execute('6LcC2FgsAAAAAFSikuMC07pGwnl1m6iAUAanTU9E',{ action: 'detailchart' }).then((token) => {document.querySelector('#recaptchatokendetailchart').value = token;}) }; captchaExecute(); window['detailchart-execute'] = captchaExecute;});</script><input type="hidden" id="recaptchatokendetailchart" class="recaptchatokendetailchart" name="recaptchatokendetailchart" value="">
+
+
+
+<style>
+	.stx_mountain_chart {
+		background-color: rgb(1,73,138, 0.8);
+		color: rgb(1,73,138, 0.8);
+		border: rgb(1, 73, 138, 0.8);
+		border-width: 1px;
+	}
+
+	.stx_current_hr_up {
+		background-color: #098941;
+	}
+
+	.stx_current_hr_down {
+		background-color: #EA0201;
+	}
+
+	.chartSize { /* Chart size container */
+		display: none;
+	}
+
+	.stx_crosshair {
+		background-color: #b5b5bc;
+	}
+
+	.stx-panel-title {
+		display: none;
+	}
+
+	.stx_volume_underlay_up {
+		color: rgb(24, 187, 92);
+		opacity: .5;
+		border-left-color: transparent;
+	}
+
+	.stx_volume_underlay_down {
+		color: rgb(255, 67, 61);
+		opacity: .5;
+		border-left-color: transparent;
+	}
+
+	.stx_colored_mountain_chart {
+		background-color: rgb(1,73,138, 0.8);
+		color: rgb(1,73,138, 0.8);
+		border: rgb(1, 73, 138, 0.8);
+		padding: 2px;
+		border-width: 2px;
+	}
+
+	.stx_line_up {
+		color: rgb(24, 187, 92);
+	}
+
+	.stx_line_down {
+		color: rgb(255, 67, 61);
+	}
+
+	.stx-btn-panel > span.stx-ico-focus {
+		display: none
+	}
+</style>
+	<link rel="stylesheet" href="/Content/Chart/finando-chartengine/styles.css">
+	<app-root data-detail-chart=""></app-root>
+									<div class="spacer-50 mobile-spacer-25"></div>
+</div>
+		<div class="htlad-mobile_in_post_ad_1" data-htlad="true" data-unit="Markets-Insider/Commodities/Quote" data-prebid="0x0:Commodities/Quote/medrec_flex|768x0:"></div>
+<div id="xsPositionsnapshot"></div></div><div class="site-content__col site-content__col--right"><div id="lgPositionsnapshot"></div><div class="responsivePosition" id="snapshot">
+<div class="graviton">
+	<h2 class="header-underline header-underline--no-margin-top">Wheat Snapshot</h2>
+	<div class="snapshot">
+			<div class="snapshot__data-item padding-right--zero">
+				280.19
+				<div class="snapshot__header">Prev. Close</div>
+			</div>
+								
+	</div>
+</div>
+
+
+
+
+
+</div></div>
+				</div>
+					<div class="spacer-10"></div>
+				<div class="site-content__row graviton">
+<div class="site-content__col site-content__col--left">
+		<div class="htlad-desktop_in_post_ad_1" data-htlad="true" data-unit="Markets-Insider/Commodities/Quote" data-prebid="0x0:|768x0:Commodities/Quote/medrec|1261x0:Commodities/Quote/billboard_flex"></div>
+<div class="more-padding-between">	<div class="graviton sticky-breakpoint-height" id="instrument-detail-news">
+			<h2 id="commodity-news" class="header-underline">
+				Wheat News
+			</h2>
+
+		<section class="instrument-stories">
+				<div class="instrument-stories__story instrument-stories__story--no-image">
+					<div class="instrument-stories__meta">
+						<span class="instrument-stories__source">Zacks</span>
+						<time class="instrument-stories__date" datetime="2026-07-21 18:00">62d</time>
+					</div>
+					<h3 class="instrument-stories__title">
+						<a class="instrument-stories__link" href="/news/commodities/is-the-rally-in-wheat-etf-overdone-15811816">Is The Rally in Wheat ETF Overdone?</a>
+					</h3>
+					<p class="instrument-stories__teaser">
+						<a class="instrument-stories__link" href="/news/commodities/is-the-rally-in-wheat-etf-overdone-15811816"></a>
+					</p>
+					<div class="instrument-stories__clear"></div>
+				</div>
+			<div class="instrument-stories__border"></div>
+		</section>
+	</div>
+</div>									<div class="spacer-50 mobile-spacer-25"></div>
+
+		<div class="htlad-mobile_in_post_ad_1" data-htlad="true" data-unit="Markets-Insider/Commodities/Quote" data-prebid="0x0:Commodities/Quote/medrec_flex|768x0:"></div>
+
+		<div class="htlad-desktop_in_post_ad_1" data-htlad="true" data-unit="Markets-Insider/Commodities/Quote" data-prebid="0x0:|768x0:Commodities/Quote/medrec|1261x0:Commodities/Quote/billboard_flex"></div>
+<script>
+    window.historicalPrices = window.historicalPrices || {};
+    window.historicalPrices.configs = window.historicalPrices.configs || [];
+    window.historicalPrices.configs.push({
+        regionSelector: '#historicPrices',
+        historicalPrices: {"instrumentName":"Wheat","startDate":"Aug. 21 2026","endDate":"Sep. 21 2026","currentStockMarket":"ENC","instrumentIdentifier":"3494982","instrumentTypeName":"Valor","headerCells":["Date","Open","Close","Daily High","Daily Low","Volume"],"columns":["Date","Open","Close","High","Low","Volume"],"model":[],"instrumentId":55434,"AjaxController":null}
+    });
+</script>
+
+<div class="graviton">
+		<h2 class="header-underline">Historical Prices for Wheat</h2>
+
+	<div id="historicPrices">
+		<div class="grid__row">
+			<div class="grid__col--6 grid__col--m-12 grid__col--s-12 grid--d-flex grid--justify-content-start grid--order-1 grid--order-s-3">
+				<button class="button button--with-icon margin-right--s" title="Feb. 04 2021">
+					<span class="icon icon-calendar"></span>
+					<span class="button__label">Feb. 04 2021</span>
+					<span class="icon icon-left_right"></span>
+				</button>
+				<button class="button button--with-icon" title="Mar. 05 2021">
+					<span class="icon icon-calendar"></span>
+					<span class="button__label">Mar. 05 2021</span>
+					<span class="icon icon-left_right"></span>
+				</button>
+			</div>
+			<div class="grid__col--6 grid__col--m-12 grid__col--s-12 grid--d-flex grid--justify-content-end grid--justify-content-m-start grid--justify-content-s-start grid--order-2 grid--order-s-1">
+				<button class="button margin-right--s" title="Download">
+					<span class="button__label">Download</span>
+				</button>
+				<button title="Reset" class="button ">
+					<span class="button__label">Reset</span>
+				</button>
+			</div>
+			<div class="grid__col--12 grid--order-3 grid--order-s-2">
+				<table class="table table--fixed table--sortable">
+					<caption>Loading..</caption>
+					<thead class="table__thead">
+						<tr class="table__tr">
+							<th class="table__th">Date</th>
+							<th class="table__th">Open</th>
+							<th class="table__th">Close</th>
+							<th class="table__th">Daily High</th>
+							<th class="table__th">Daily Low</th>
+						</tr>
+					</thead>
+				</table>
+			</div>
+			<div class="historical-prices__price-change grid__col--12 grid--order-4 grid--order-s-4">
+				<span>Price change over selected period:</span>
+				<span class="historical-prices__price-change-values">
+					<span class="font-color-gray">0%</span>
+					<span class="margin-left--s">0</span>
+				</span>
+			</div>
+		</div>
+	</div>
+</div>									<div class="spacer-50 mobile-spacer-25"></div>
+	<!-- Unit Conversion -->
+	<div class="graviton">
+		<h2 class="header-underline">
+			Unit conversion for Wheat Price Today
+		</h2>
+		<div class="grid--vertical-scrolling">
+			<table class="table table--col-1-font-weight-normal table--suppresses-line-breaks">
+				<colgroup>
+					<col>
+					<col class="width-25-percent">
+					<col>
+					<col>
+				</colgroup>
+				<thead class="table__thead">
+					<tr class="table__tr">
+						<th class="table__th">Conversion</th>
+						<th class="table__th table__th--spacer"></th>
+						<th class="table__th">Wheat Price</th>
+						<th class="table__th">Price</th>
+					</tr>
+				</thead>
+				<tbody class="table__tbody">
+						<tr class="table__tr">
+							<td class="table__td">
+								1 Ton = 1,000 Kilograms
+							</td>
+							<td class="table__th table__th--spacer"></td>
+							<td class="table__td">
+								Wheat Price
+								Per 1 Kilogram
+							</td>
+							<td class="table__td">
+								0.24 USD
+							</td>
+						</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+
+									<div class="spacer-50 mobile-spacer-25"></div>
+
+		<div class="htlad-desktop_in_post_ad_1" data-htlad="true" data-unit="Markets-Insider/Commodities/Quote" data-prebid="0x0:|768x0:Commodities/Quote/medrec|1261x0:Commodities/Quote/billboard_flex"></div>
+
+		<div class="htlad-mobile_in_post_ad_1" data-htlad="true" data-unit="Markets-Insider/Commodities/Quote" data-prebid="0x0:Commodities/Quote/medrec_flex|768x0:"></div>
+
+<div class="graviton sticky-breakpoint-height">
+			<h2 class="header-underline">Agriculture</h2>
+
+
+	<div class="grid--vertical-scrolling">
+	<table class="table" data-table-filter-table="">
+			<colgroup>
+					<col>
+					<col>
+					<col>
+					<col>
+					<col>
+					<col>
+					<col>
+			</colgroup>
+			<thead class="table__thead">
+				<tr class="table__tr">
+						<th class="table__th">
+Name						</th>
+						<th class="table__th">
+						</th>
+						<th class="table__th">
+Price						</th>
+						<th class="table__th">
+						</th>
+						<th class="table__th">
+%						</th>
+						<th class="table__th">
+Unit						</th>
+						<th class="table__th">
+Date						</th>
+				</tr>
+			</thead>
+		<tbody class="table__tbody">
+					<tr class="table__tr">
+								<td class="table__td">
+									<a href="/commodities/cotton-price" title="Cotton">Cotton</a>
+								</td>
+									<td class="table__td table__td--spacer">
+										
+									</td>
+									<td class="table__td text-nowrap">
+										0.78
+									</td>
+									<td class="table__td text-center">
+										<span class="arrow arrow--positive"></span>
+									</td>
+									<td class="table__td text-nowrap font-color-gray">
+										<span class="colorGreen font-color-green">0.23</span>
+									</td>
+									<td class="table__td text-nowrap">
+										USD per lb.
+									</td>
+									<td class="table__td text-nowrap">
+										9/20/26 09:00 PM
+									</td>
+					</tr>
+					<tr class="table__tr">
+								<td class="table__td">
+									<a href="/commodities/oats-price" title="Oats">Oats</a>
+								</td>
+									<td class="table__td table__td--spacer">
+										
+									</td>
+									<td class="table__td text-nowrap">
+										4.07
+									</td>
+									<td class="table__td text-center">
+										<span class="arrow"></span>
+									</td>
+									<td class="table__td text-nowrap font-color-gray">
+										-
+									</td>
+									<td class="table__td text-nowrap">
+										USD per Bushel
+									</td>
+									<td class="table__td text-nowrap">
+										9/21/26 02:32 AM
+									</td>
+					</tr>
+					<tr class="table__tr">
+								<td class="table__td">
+									<a href="/commodities/lumber-price" title="Lumber">Lumber</a>
+								</td>
+									<td class="table__td table__td--spacer">
+										
+									</td>
+									<td class="table__td text-nowrap">
+										535.50
+									</td>
+									<td class="table__td text-center">
+										<span class="arrow arrow--negative"></span>
+									</td>
+									<td class="table__td text-nowrap font-color-gray">
+										<span class="colorRed font-color-red">-0.28</span>
+									</td>
+									<td class="table__td text-nowrap">
+										USD per 1.000 board feet
+									</td>
+									<td class="table__td text-nowrap">
+										9/20/26 09:05 AM
+									</td>
+					</tr>
+					<tr class="table__tr">
+								<td class="table__td">
+									<a href="/commodities/coffee-price" title="Coffee">Coffee</a>
+								</td>
+									<td class="table__td table__td--spacer">
+										
+									</td>
+									<td class="table__td text-nowrap">
+										2.95
+									</td>
+									<td class="table__td text-center">
+										<span class="arrow arrow--positive"></span>
+									</td>
+									<td class="table__td text-nowrap font-color-gray">
+										<span class="colorGreen font-color-green">1.38</span>
+									</td>
+									<td class="table__td text-nowrap">
+										USD per lb.
+									</td>
+									<td class="table__td text-nowrap">
+										9/18/26 12:34 PM
+									</td>
+					</tr>
+					<tr class="table__tr">
+								<td class="table__td">
+									<a href="/commodities/cocoa-price" title="Cocoa">Cocoa</a>
+								</td>
+									<td class="table__td table__td--spacer">
+										
+									</td>
+									<td class="table__td text-nowrap">
+										3,934.00
+									</td>
+									<td class="table__td text-center">
+										<span class="arrow arrow--negative"></span>
+									</td>
+									<td class="table__td text-nowrap font-color-gray">
+										<span class="colorRed font-color-red">-7.48</span>
+									</td>
+									<td class="table__td text-nowrap">
+										GBP per Ton
+									</td>
+									<td class="table__td text-nowrap">
+										9/18/26 12:10 PM
+									</td>
+					</tr>
+					<tr class="table__tr">
+								<td class="table__td">
+									<a href="/commodities/live-cattle-price" title="Live Cattle">Live Cattle</a>
+								</td>
+									<td class="table__td table__td--spacer">
+										
+									</td>
+									<td class="table__td text-nowrap">
+										2.15
+									</td>
+									<td class="table__td text-center">
+										<span class="arrow arrow--negative"></span>
+									</td>
+									<td class="table__td text-nowrap font-color-gray">
+										<span class="colorRed font-color-red">-0.49</span>
+									</td>
+									<td class="table__td text-nowrap">
+										USD per lb.
+									</td>
+									<td class="table__td text-nowrap">
+										9/20/26 09:05 AM
+									</td>
+					</tr>
+					<tr class="table__tr">
+								<td class="table__td">
+									<a href="/commodities/lean-hog-price" title="Lean Hog">Lean Hog</a>
+								</td>
+									<td class="table__td table__td--spacer">
+										
+									</td>
+									<td class="table__td text-nowrap">
+										0.78
+									</td>
+									<td class="table__td text-center">
+										<span class="arrow arrow--negative"></span>
+									</td>
+									<td class="table__td text-nowrap font-color-gray">
+										<span class="colorRed font-color-red">-0.70</span>
+									</td>
+									<td class="table__td text-nowrap">
+										USD per lb.
+									</td>
+									<td class="table__td text-nowrap">
+										9/20/26 09:05 AM
+									</td>
+					</tr>
+					<tr class="table__tr">
+								<td class="table__td">
+									<a href="/commodities/corn-price" title="Corn">Corn</a>
+								</td>
+									<td class="table__td table__td--spacer">
+										
+									</td>
+									<td class="table__td text-nowrap">
+										5.34
+									</td>
+									<td class="table__td text-center">
+										<span class="arrow arrow--positive"></span>
+									</td>
+									<td class="table__td text-nowrap font-color-gray">
+										<span class="colorGreen font-color-green">1.14</span>
+									</td>
+									<td class="table__td text-nowrap">
+										USD per Bushel
+									</td>
+									<td class="table__td text-nowrap">
+										9/21/26 03:09 AM
+									</td>
+					</tr>
+					<tr class="table__tr">
+								<td class="table__td">
+									<a href="/commodities/feeder-cattle-price" title="Feeder Cattle">Feeder Cattle</a>
+								</td>
+									<td class="table__td table__td--spacer">
+										
+									</td>
+									<td class="table__td text-nowrap">
+										3.33
+									</td>
+									<td class="table__td text-center">
+										<span class="arrow arrow--negative"></span>
+									</td>
+									<td class="table__td text-nowrap font-color-gray">
+										<span class="colorRed font-color-red">-0.25</span>
+									</td>
+									<td class="table__td text-nowrap">
+										USD per lb.
+									</td>
+									<td class="table__td text-nowrap">
+										9/20/26 09:05 AM
+									</td>
+					</tr>
+					<tr class="table__tr">
+								<td class="table__td">
+									<a href="/commodities/milk-price" title="Milk">Milk</a>
+								</td>
+									<td class="table__td table__td--spacer">
+										
+									</td>
+									<td class="table__td text-nowrap">
+										16.14
+									</td>
+									<td class="table__td text-center">
+										<span class="arrow arrow--negative"></span>
+									</td>
+									<td class="table__td text-nowrap font-color-gray">
+										<span class="colorRed font-color-red">-0.12</span>
+									</td>
+									<td class="table__td text-nowrap">
+										USD per cwt.sh.
+									</td>
+									<td class="table__td text-nowrap">
+										9/21/26 02:33 AM
+									</td>
+					</tr>
+					<tr class="table__tr">
+								<td class="table__td">
+									<a href="/commodities/orange-juice-price" title="Orange Juice">Orange Juice</a>
+								</td>
+									<td class="table__td table__td--spacer">
+										
+									</td>
+									<td class="table__td text-nowrap">
+										1.41
+									</td>
+									<td class="table__td text-center">
+										<span class="arrow arrow--positive"></span>
+									</td>
+									<td class="table__td text-nowrap font-color-gray">
+										<span class="colorGreen font-color-green">0.64</span>
+									</td>
+									<td class="table__td text-nowrap">
+										USD per lb.
+									</td>
+									<td class="table__td text-nowrap">
+										9/18/26 02:00 PM
+									</td>
+					</tr>
+					<tr class="table__tr">
+								<td class="table__td">
+									<a href="/commodities/palm-oil-price" title="Palm Oil">Palm Oil</a>
+								</td>
+									<td class="table__td table__td--spacer">
+										
+									</td>
+									<td class="table__td text-nowrap">
+										4,699.00
+									</td>
+									<td class="table__td text-center">
+										<span class="arrow arrow--negative"></span>
+									</td>
+									<td class="table__td text-nowrap font-color-gray">
+										<span class="colorRed font-color-red">-0.30</span>
+									</td>
+									<td class="table__td text-nowrap">
+										MYR per Ton
+									</td>
+									<td class="table__td text-nowrap">
+										9/18/26 06:00 AM
+									</td>
+					</tr>
+					<tr class="table__tr">
+								<td class="table__td">
+									<a href="/commodities/rapeseed-price" title="Rapeseed">Rapeseed</a>
+								</td>
+									<td class="table__td table__td--spacer">
+										
+									</td>
+									<td class="table__td text-nowrap">
+										548.25
+									</td>
+									<td class="table__td text-center">
+										<span class="arrow arrow--negative"></span>
+									</td>
+									<td class="table__td text-nowrap font-color-gray">
+										<span class="colorRed font-color-red">-0.63</span>
+									</td>
+									<td class="table__td text-nowrap">
+										EUR per Ton
+									</td>
+									<td class="table__td text-nowrap">
+										9/18/26 02:15 PM
+									</td>
+					</tr>
+					<tr class="table__tr">
+								<td class="table__td">
+									<a href="/commodities/rice-price" title="Rice">Rice</a>
+								</td>
+									<td class="table__td table__td--spacer">
+										
+									</td>
+									<td class="table__td text-nowrap">
+										15.75
+									</td>
+									<td class="table__td text-center">
+										<span class="arrow arrow--positive"></span>
+									</td>
+									<td class="table__td text-nowrap font-color-gray">
+										<span class="colorGreen font-color-green">0.67</span>
+									</td>
+									<td class="table__td text-nowrap">
+										USD per cwt.
+									</td>
+									<td class="table__td text-nowrap">
+										9/20/26 09:56 PM
+									</td>
+					</tr>
+					<tr class="table__tr">
+								<td class="table__td">
+									<a href="/commodities/soybean-meal-price" title="Soybean Meal">Soybean Meal</a>
+								</td>
+									<td class="table__td table__td--spacer">
+										
+									</td>
+									<td class="table__td text-nowrap">
+										357.00
+									</td>
+									<td class="table__td text-center">
+										<span class="arrow arrow--positive"></span>
+									</td>
+									<td class="table__td text-nowrap font-color-gray">
+										<span class="colorGreen font-color-green">0.68</span>
+									</td>
+									<td class="table__td text-nowrap">
+										USD per Ton
+									</td>
+									<td class="table__td text-nowrap">
+										9/21/26 03:08 AM
+									</td>
+					</tr>
+					<tr class="table__tr">
+								<td class="table__td">
+									<a href="/commodities/soybeans-price" title="Soybeans">Soybeans</a>
+								</td>
+									<td class="table__td table__td--spacer">
+										
+									</td>
+									<td class="table__td text-nowrap">
+										13.10
+									</td>
+									<td class="table__td text-center">
+										<span class="arrow arrow--positive"></span>
+									</td>
+									<td class="table__td text-nowrap font-color-gray">
+										<span class="colorGreen font-color-green">0.46</span>
+									</td>
+									<td class="table__td text-nowrap">
+										USD per Bushel
+									</td>
+									<td class="table__td text-nowrap">
+										9/21/26 03:09 AM
+									</td>
+					</tr>
+					<tr class="table__tr">
+								<td class="table__td">
+									<a href="/commodities/soybean-oil-price" title="Soybean Oil">Soybean Oil</a>
+								</td>
+									<td class="table__td table__td--spacer">
+										
+									</td>
+									<td class="table__td text-nowrap">
+										0.67
+									</td>
+									<td class="table__td text-center">
+										<span class="arrow arrow--negative"></span>
+									</td>
+									<td class="table__td text-nowrap font-color-gray">
+										<span class="colorRed font-color-red">-0.61</span>
+									</td>
+									<td class="table__td text-nowrap">
+										USD per lb.
+									</td>
+									<td class="table__td text-nowrap">
+										9/21/26 03:09 AM
+									</td>
+					</tr>
+					<tr class="table__tr">
+								<td class="table__td">
+									<a href="/commodities/wheat-price" title="Wheat">Wheat</a>
+								</td>
+									<td class="table__td table__td--spacer">
+										
+									</td>
+									<td class="table__td text-nowrap">
+										241.75
+									</td>
+									<td class="table__td text-center">
+										<span class="arrow arrow--negative"></span>
+									</td>
+									<td class="table__td text-nowrap font-color-gray">
+										<span class="colorRed font-color-red">-0.92</span>
+									</td>
+									<td class="table__td text-nowrap">
+										EUR per Ton
+									</td>
+									<td class="table__td text-nowrap">
+										9/18/26 02:15 PM
+									</td>
+					</tr>
+					<tr class="table__tr">
+								<td class="table__td">
+									<a href="/commodities/sugar-price" title="Sugar">Sugar</a>
+								</td>
+									<td class="table__td table__td--spacer">
+										
+									</td>
+									<td class="table__td text-nowrap">
+										0.17
+									</td>
+									<td class="table__td text-center">
+										<span class="arrow arrow--negative"></span>
+									</td>
+									<td class="table__td text-nowrap font-color-gray">
+										<span class="colorRed font-color-red">-0.34</span>
+									</td>
+									<td class="table__td text-nowrap">
+										USD per lb.
+									</td>
+									<td class="table__td text-nowrap">
+										9/18/26 01:04 PM
+									</td>
+					</tr>
+		</tbody>
+	</table>
+	</div>
+
+	
+
+
+</div>
+
+
+									<div class="spacer-50 mobile-spacer-25"></div>
+
+
+	<div id="taboola-mi"></div>
+	<script defer="">
+        window.taboolaConfiguration = window.taboolaConfiguration || {};
+
+        var pageType = window.taboolaConfiguration.taboolaPageType;
+        var pos = '';
+
+        if (pos.length !== 0)
+        {
+            pageType = pos;
+        }
+
+        window.taboolaConfiguration.taboolaPlacements.push(pageType);
+        window.taboolaConfiguration.taboolaPlacementIds.push('taboola-mi');
+	</script>
+</div><div class="site-content__col site-content__col--right"><script src="https://cdn.jwplayer.com/v2/sites/iAgve7lW/placements/XqOVG7Ek/embed.js"></script>									<div class="spacer-50 mobile-spacer-25"></div>
+
+	<script>
+		// Listener for ads to send the proper height based on flight count. Uses identifier we send in iframe url above.
+		window.addEventListener('message', (e) => {
+			if (e.data) {
+				const source = e.data.source;
+				const id = e.data.id;
+				const height = e.data.height;
+				if (source && id && undefined !== height) {
+					const chosenFrame = document.querySelector(`iframe[data-ident="${id}"]`);
+					if (chosenFrame) {
+						chosenFrame.style.height = height + 'px';
+					}
+				}
+			}
+		}, false);
+	</script>
+	<!-- code from GoBankingRates - Markets Insider - MarketsInsider -->
+	<div class="htl-ad-placeholder htl-ad-placeholder--goBankingRates">
+		<iframe src="https://products.gobankingrates.com/pub/2e40eeb4-27e5-11ed-9a44-0a919b37cd73?resize=1&amp;ident=1235" scrolling="no" frameborder="0" width="100%" style="min-width:300px;max-width:595px;max-height:475px;" data-ident="1235"></iframe>
+	</div>
+									<div class="spacer-50 mobile-spacer-25"></div>
+
+		<div class="graviton">
+			<h2 class="header-underline">Wheat</h2>
+			<div class="instrument-description">
+				<p>Wheat is a versatile grain that can be grown in a variety of climates and dates back to 10,000 B.C.. The price of the US Dollar is one of the main driving factors of wheat prices as well as supply-demand imbalances. Wheat is traded on several exchanges such as the CME Group, Mercado a Termino de Buenos Aires (MAT), Sydney Futures Exchange (SFE), London International Financial Futures and Options Exchange (LIFFE), Marche a Terme International de France (MATIF), Budapest Commodity Exchange (BCE), the Kansas City Board of Trade (KCBT), the Minneapolis Grain Exchange (MGE), and the Winnipeg Commodity Exchange (WCE). <span class="instrument-description__read-more">(read more)</span></p><div class="instrument-description__hidden">
+
+<p>China, India, Russia, and the US are among the top wheat producers. Highly nutritious and long-lasting, wheat has become a staple in diets across the globe whether it be in bread, pasta, cereal or pastries. It is also used in the production of beer, whiskey, and cooking oil. Wheat is not only a food source but has other applications as well. Gluten, a protein found in wheat and other grains, can be used to create medical capsules and to coat some paper products.</p> 
+</div>
+			</div>
+		</div>
+
+		<div class="htlad-lower_300" data-htlad="true" data-unit="Markets-Insider/Currencies/Quote" data-prebid="0x0:|960x0:Currencies/Quote/halfpage_flex"></div>
+									<div class="spacer-50 mobile-spacer-25"></div>
+<div class="graviton">
+	<h2 class="header-underline">Popular Articles</h2>
+	<div class="popular-articles popular-articles--small">
+			<div class="popular-articles__story">
+				<div class="popular-articles__meta">
+					<span class="popular-articles__source">Business Insider</span>
+					<time class="popular-articles__date" datetime="2026-14-09 18:32">09/14/26</time>
+				</div>
+					<a class="popular-articles__image-link" href="https://www.businessinsider.com/bond-market-treasury-yields-10-year-inflation-economy-stock-market-2026-9">
+						<img src="https://markets.businessinsider.com/images/unsortiert/stock-chart-colorful-trader-upset.jpg" loading="lazy" alt="" class="popular-articles__image">
+					</a>
+				<h3 class="popular-articles__title">
+					<a class="popular-articles__link" href="https://www.businessinsider.com/bond-market-treasury-yields-10-year-inflation-economy-stock-market-2026-9">Why 5% is the Treasury-yield level that freaks investors out</a>
+				</h3>
+				<div class="popular-articles__clear"></div>
+			</div>
+			<div class="popular-articles__story">
+				<div class="popular-articles__meta">
+					<span class="popular-articles__source">Business Insider</span>
+					<time class="popular-articles__date" datetime="2026-14-09 18:16">09/14/26</time>
+				</div>
+					<a class="popular-articles__image-link" href="https://www.businessinsider.com/stock-market-today-ai-doomsday-oil-prices-interest-rate-hike-2026-9">
+						<img src="https://markets.businessinsider.com/images/unsortiert/trader-screen-colorful-nyse-terminal.jpg" loading="lazy" alt="" class="popular-articles__image">
+					</a>
+				<h3 class="popular-articles__title">
+					<a class="popular-articles__link" href="https://www.businessinsider.com/stock-market-today-ai-doomsday-oil-prices-interest-rate-hike-2026-9">Doomsday fears are coming at exactly the wrong time for the AI-led bull market</a>
+				</h3>
+				<div class="popular-articles__clear"></div>
+			</div>
+			<div class="popular-articles__story">
+				<div class="popular-articles__meta">
+					<span class="popular-articles__source">Business Insider</span>
+					<time class="popular-articles__date" datetime="2026-14-09 17:45">09/14/26</time>
+				</div>
+					<a class="popular-articles__image-link" href="https://www.businessinsider.com/ai-jobs-employment-wall-street-high-income-economy-morgan-stanley-2026-9">
+						<img src="https://markets.businessinsider.com/images/unsortiert/jobs-job.jpg" loading="lazy" alt="" class="popular-articles__image">
+					</a>
+				<h3 class="popular-articles__title">
+					<a class="popular-articles__link" href="https://www.businessinsider.com/ai-jobs-employment-wall-street-high-income-economy-morgan-stanley-2026-9">What jobs wipeout? Morgan Stanley says white-collar workers might benefit the most from AI</a>
+				</h3>
+				<div class="popular-articles__clear"></div>
+			</div>
+			<div class="popular-articles__story">
+				<div class="popular-articles__meta">
+					<span class="popular-articles__source">Business Insider</span>
+					<time class="popular-articles__date" datetime="2026-14-09 17:46">09/14/26</time>
+				</div>
+					<a class="popular-articles__image-link" href="https://www.businessinsider.com/coast-fire-financial-independence-retire-early-401k-average-stock-returns-2026-9">
+						<img src="https://markets.businessinsider.com/images/unsortiert/retirement-senior-citizens-lounging.jpg" loading="lazy" alt="" class="popular-articles__image">
+					</a>
+				<h3 class="popular-articles__title">
+					<a class="popular-articles__link" href="https://www.businessinsider.com/coast-fire-financial-independence-retire-early-401k-average-stock-returns-2026-9">The FIRE crowd might be making some lofty assumptions about their path to retirement</a>
+				</h3>
+				<div class="popular-articles__clear"></div>
+			</div>
+	</div>
+</div></div>
+				</div>
+					<div class="spacer-10"></div>
+</div>
+	</main>
+
+	<!-- Markets Insider Page Footer -->
+	<!-- this component generated on: 2026-08-07 -->
+<shared-component class="scs"><footer id="site-footer" class="markets-insider-footer" data-component-type="markets-insider-footer" data-load-strategy="lazy" data-e2e-name="footer" data-track-view="{&quot;subscription_experience&quot;:&quot;bi_value_unassigned&quot;,&quot;product_field&quot;:&quot;bi_value_unassigned&quot;,&quot;element_name&quot;:&quot;footer&quot;}" role="contentinfo">
+  <section class="top-section">
+    <div class="logo">
+      <a href="https://markets.businessinsider.com/" class="" aria-label="Click to visit Markets Insider" data-e2e-name="footer-insider">
+          <div class="lazy-holder lazy-holder  has-transparency" style="padding-top: calc(100% * 40 / 115.56)">
+        
+        
+        <img class="lazy-image has-transparency" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1 1'%3E%3C/svg%3E" data-src="/public/assets/MI/logos/markets-insider-stacked.svg" alt="Click to visit Markets Insider">
+        
+        <noscript>
+            <img class="no-script" src="/public/assets/MI/logos/markets-insider-stacked.svg" alt="Click to visit Markets Insider" />
+        </noscript>
+        
+        </div>      </a>
+    </div>
+
+    <div class="social-icons" data-e2e-name="social-links" data-track-click-shared="{&quot;click_type&quot;:&quot;owned_socials&quot;,&quot;element_name&quot;:&quot;footer&quot;,&quot;event&quot;:&quot;outbound_click&quot;}">
+      <a class="social-link" href="https://www.facebook.com/MrktsInsider" title="Follow us on Facebook" aria-label="Click to visit us on Facebook" data-track-click="{&quot;click_url&quot;:&quot;https://www.facebook.com/MrktsInsider&quot;,&quot;click_text&quot;:&quot;facebook&quot;}" data-e2e-name="facebook" target="_blank" rel="noopener nofollow">
+          <div class="lazy-holder lazy-holder  has-transparency" style="padding-top: calc(100% * 24 / 24)">
+        
+        
+        <img class="lazy-image has-transparency" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1 1'%3E%3C/svg%3E" data-src="/public/assets/social/social-facebook.svg" alt="Facebook">
+        
+        <noscript>
+            <img class="no-script" src="/public/assets/social/social-facebook.svg" alt="Facebook" />
+        </noscript>
+        
+        </div>      </a>
+      <a class="social-link" href="https://x.com/mktsinsider" title="Follow us on X" aria-label="Click to visit us on X" data-track-click="{&quot;click_url&quot;:&quot;https://x.com/mktsinsider&quot;,&quot;click_text&quot;:&quot;X&quot;}" data-e2e-name="X" target="_blank" rel="noopener nofollow">
+          <div class="lazy-holder lazy-holder  has-transparency" style="padding-top: calc(100% * 24 / 24)">
+        
+        
+        <img class="lazy-image has-transparency" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1 1'%3E%3C/svg%3E" data-src="/public/assets/social/social-x.svg" alt="X">
+        
+        <noscript>
+            <img class="no-script" src="/public/assets/social/social-x.svg" alt="X" />
+        </noscript>
+        
+        </div>      </a>
+    </div>
+  </section>
+
+  <hr>
+  <section class="link-section">
+    <section class="footer-columns">
+      <section class="footer-list-column">
+        <a class="label-md-strong" href="/indices">Indices</a>
+        <a class="label-md-subtle" href="/index/dow_jones">Dow Jones</a>
+        <a class="label-md-subtle" href="/index/s&amp;p_500">S&amp;P 500</a>
+        <a class="label-md-subtle" href="/index/nasdaq_100">Nasdaq 100</a>
+        <a class="label-md-subtle" href="/index/nasdaq_composite">Nasdaq Composite</a>
+        <a class="label-md-subtle" href="/index/ftse_100">FTSE 100</a>
+        <a class="label-md-subtle" href="/index/nikkei_225">Nikkei 225</a>
+        <a class="label-md-subtle" href="/index/dax">DAX 40</a>
+        <a class="label-md-subtle" href="/index/hang_seng">Hang Seng</a>
+        <a class="label-md-subtle" href="/index/kospi">Kospi</a>
+        <a class="label-md-subtle" href="/index/s&amp;p_tsx_composite_index">S&amp;P TSX Composite Index</a>
+        <a class="label-md-subtle" href="/index/asx">ASX</a>
+        <a class="label-md-subtle" href="/index/us-dollar-index">US Dollar Index</a>
+        <a class="label-md-subtle" href="/indices">Stock Indices</a>
+        <a class="label-md-subtle" href="/futures/dow-futures">Dow Futures</a>
+        <a class="label-md-subtle" href="/market-movers/dow_jones">Dow Jones Market Movers</a>
+      </section>      <section class="footer-list-column">
+        <a class="label-md-strong" href="/commodities">Commodities</a>
+        <a class="label-md-subtle" href="/commodities/gold-price">Gold Price</a>
+        <a class="label-md-subtle" href="/commodities/oil-price?type=wti">Oil Price</a>
+        <a class="label-md-subtle" href="/commodities/silver-price">Silver Price</a>
+        <a class="label-md-subtle" href="/commodities/copper-price">Copper Price</a>
+        <a class="label-md-subtle" href="/commodities/cotton-price">Cotton Price</a>
+        <a class="label-md-subtle" href="/commodities/heating-oil-price">Heating Oil Price</a>
+        <a class="label-md-subtle" href="/commodities/aluminum-price">Aluminum Price</a>
+        <a class="label-md-subtle" href="/commodities/natural-gas-price">Natural Gas Price</a>
+        <a class="label-md-subtle" href="/commodities/realtime-list">Realtime Commodity Prices</a>
+      </section>      <section class="footer-list-column">
+        <a class="label-md-strong" href="/currencies">Currencies</a>
+        <a class="label-md-subtle" href="/currencies/eur-usd">EURO DOLLAR</a>
+        <a class="label-md-subtle" href="/currencies/btc-usd">Bitcoin Price</a>
+        <a class="label-md-subtle" href="/currencies/eth-usd">ETH USD</a>
+        <a class="label-md-subtle" href="/currencies/usd-cad">CAD USD</a>
+        <a class="label-md-subtle" href="/currencies/usd-mxn">PESO USD</a>
+        <a class="label-md-subtle" href="/currencies/gbp-usd">POUND USD</a>
+        <a class="label-md-subtle" href="/currencies/usd-inr">USD INR</a>
+        <a class="label-md-subtle" href="/currency-converter">Currency Converter</a>
+        <a class="label-md-subtle" href="/currencies">Exchange Rates</a>
+      </section>      <section class="footer-list-column">
+        <a class="label-md-strong" href="/stocks">Stocks</a>
+        <a class="label-md-subtle" href="/stocks/goog-stock">Google Stock</a>
+        <a class="label-md-subtle" href="/stocks/meta-stock">Meta Stock</a>
+        <a class="label-md-subtle" href="/stocks/amzn-stock">Amazon Stock</a>
+        <a class="label-md-subtle" href="/stocks/tsla-stock">Tesla Stock</a>
+        <a class="label-md-subtle" href="/stocks/dow-stock">Dow-Stock</a>
+        <a class="label-md-subtle" href="/premarket">Premarket</a>
+        <a class="label-md-subtle" href="/news">Stock Market News</a>
+      </section>    </section>
+  </section>
+
+  <button class="expand-button label-md strong">
+    <svg aria-hidden="true" focusable="false" class="svg-icon plus-icon show-more" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+  <path fill="currentColor" d="M14.006 2H9.994v7.994H2v4.012h7.994V22h4.012v-7.994H22V9.994h-7.994V2Z"></path>
+</svg> <svg aria-hidden="true" focusable="false" class="svg-icon minus-icon show-less" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+  <path fill="currentColor" d="M22 14v-4H2v4h20Z"></path>
+</svg> <span class="expand-button-text">See more categories</span>
+  </button>
+
+  <hr>
+
+  <section class="bottom-section label-md subtle">
+    <p><a href="https://businessinsider.com/terms">Copyright © 2026</a>
+    Insider Inc and <a href="https://www.finanzen.net/impressum">finanzen.net</a> GmbH (Imprint). All rights reserved.
+    Registration on or use of this site constitutes acceptance of our <a href="https://www.businessinsider.com/terms" data-e2e-name="footer-terms-of-service">Terms of Service</a> and <a href="https://www.businessinsider.com/privacy-policy" data-e2e-name="footer-privacy-policy">Privacy Policy.</a></p>
+
+    <div class="with-divider">
+      <a href="https://www.businessinsider.com/disclaimer">Disclaimer</a>
+      <a href="https://www.businessinsider.com/accessibility">Accessibility</a>
+      <a href="https://www.businessinsider.com/commerce-policy">Commerce Policy</a>
+      <a href="https://www.businessinsider.com/advertising-policies">Advertising Policies</a>
+      Stock quotes by <a href="https://www.finanzen.net/">finanzen.net</a>
+      <a href="https://www.businessinsider.com/contact">Contact Us</a>
+      <a href="https://www.businessinsider.com/masthead">Masthead</a>
+    </div>
+
+    <div>
+      <a class="privacy-footer" href="https://markets.businessinsider.com/your-privacy-choices">Your Privacy Choices</a>
+    </div>
+
+    <div class="logos">
+      <div class="logo">
+          <div class="lazy-holder lazy-holder  has-transparency" style="padding-top: calc(100% * 28 / 81.27)">
+        
+        
+        <img class="lazy-image has-transparency" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1 1'%3E%3C/svg%3E" data-src="/public/assets/logos/stacked-black.svg" alt="Business Insider Logo">
+        
+        <noscript>
+            <img class="no-script" src="/public/assets/logos/stacked-black.svg" alt="Business Insider Logo" />
+        </noscript>
+        
+        </div>      </div>
+
+      <div class="logo">
+          <div class="lazy-holder lazy-holder  has-transparency" style="padding-top: calc(100% * 12 / 79.2)">
+        
+        
+        <img class="lazy-image has-transparency" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1 1'%3E%3C/svg%3E" data-src="/public/assets/INSIDER/US/logos/Insider-logo-dark-opt.svg" alt="Insider Logo">
+        
+        <noscript>
+            <img class="no-script" src="/public/assets/INSIDER/US/logos/Insider-logo-dark-opt.svg" alt="Insider Logo" />
+        </noscript>
+        
+        </div>      </div>
+    </div>
+  </section>
+
+</footer></shared-component>
+
+	
+	
+
+	
+	<script src="/Content/Scripts/portfolio.min.js?v=20260920.1"></script>
+	
+
+
+
+	
+	<!-- this component generated on: 2026-08-07 -->
+<script async="" type="text/javascript" src="/scripts/vendors.ce28ef53e71c2470da8d.js" data-load-strategy="first-party"></script>
+<script async="" type="text/javascript" src="/scripts/main.b8a389dc3c1e3ec9603f.js" data-load-strategy="first-party"></script>
+
+
+
+<noscript>
+  <iframe
+    src="https://www.googletagmanager.com/ns.html?id=GTM-MP6F46L"
+    title="GTM" height="0" width="0" style="display:none;visibility:hidden"
+  ></iframe>
+
+</noscript>
+
+<div class="overlay" data-component-type="overlay" data-load-strategy="interaction"></div></body></html>

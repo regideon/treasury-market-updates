@@ -1,0 +1,126 @@
+@import '../../../../vendor/filament/filament/resources/css/theme.css';
+
+@source '../../../../app/Filament/**/*';
+@source '../../../../resources/views/filament/**/*';
+
+/**
+ * Treasury Market Updates dashboard design tokens.
+ * Ported from the approved Google Stitch dashboard mockup so its utility
+ * classes (bg-primary-container, p-space-md, text-metric-xl, etc.) compile
+ * through this panel's own Tailwind build.
+ */
+@theme {
+    --font-body-md: 'Inter', ui-sans-serif, system-ui, sans-serif;
+    --font-headline-sm: 'Inter', ui-sans-serif, system-ui, sans-serif;
+    --font-headline-md: 'Inter', ui-sans-serif, system-ui, sans-serif;
+    --font-headline-lg: 'Inter', ui-sans-serif, system-ui, sans-serif;
+    --font-metric-md: 'Inter', ui-sans-serif, system-ui, sans-serif;
+    --font-metric-xl: 'Inter', ui-sans-serif, system-ui, sans-serif;
+    --font-body-lg: 'Inter', ui-sans-serif, system-ui, sans-serif;
+    --font-body-sm: 'Inter', ui-sans-serif, system-ui, sans-serif;
+    --font-display-lg: 'Inter', ui-sans-serif, system-ui, sans-serif;
+    --font-display-lg-mobile: 'Inter', ui-sans-serif, system-ui, sans-serif;
+    --font-label-micro: 'Inter', ui-sans-serif, system-ui, sans-serif;
+    --font-label-md: 'Inter', ui-sans-serif, system-ui, sans-serif;
+
+    --text-body-md: 14px;
+    --text-body-md--line-height: 20px;
+    --text-headline-sm: 16px;
+    --text-headline-sm--line-height: 24px;
+    --text-headline-sm--letter-spacing: -0.01em;
+    --text-headline-md: 20px;
+    --text-headline-md--line-height: 28px;
+    --text-headline-md--letter-spacing: -0.015em;
+    --text-headline-lg: 24px;
+    --text-headline-lg--line-height: 32px;
+    --text-headline-lg--letter-spacing: -0.02em;
+    --text-metric-md: 24px;
+    --text-metric-md--line-height: 30px;
+    --text-metric-md--letter-spacing: -0.02em;
+    --text-metric-xl: 32px;
+    --text-metric-xl--line-height: 38px;
+    --text-metric-xl--letter-spacing: -0.025em;
+    --text-body-lg: 16px;
+    --text-body-lg--line-height: 24px;
+    --text-body-sm: 12px;
+    --text-body-sm--line-height: 16px;
+    --text-display-lg: 36px;
+    --text-display-lg--line-height: 44px;
+    --text-display-lg--letter-spacing: -0.03em;
+    --text-display-lg-mobile: 28px;
+    --text-display-lg-mobile--line-height: 36px;
+    --text-display-lg-mobile--letter-spacing: -0.02em;
+    --text-label-micro: 11px;
+    --text-label-micro--line-height: 14px;
+    --text-label-micro--letter-spacing: 0.08em;
+    --text-label-md: 13px;
+    --text-label-md--line-height: 18px;
+    --text-label-md--letter-spacing: 0.01em;
+
+    --spacing-space-xs: 0.25rem;
+    --spacing-space-sm: 0.5rem;
+    --spacing-space-md: 1rem;
+    --spacing-space-lg: 1.5rem;
+    --spacing-space-xl: 2rem;
+    --spacing-space-2xl: 3rem;
+    --spacing-margin: 1rem;
+    --spacing-margin-tablet: 1.5rem;
+    --spacing-margin-desktop: 2.5rem;
+    --spacing-gutter: 1.25rem;
+    --spacing-gutter-desktop: 1.5rem;
+
+    --color-primary: #021446;
+    --color-on-primary: #ffffff;
+    --color-primary-container: #1b2a5b;
+    --color-on-primary-container: #8492ca;
+    --color-primary-fixed: #dce1ff;
+    --color-primary-fixed-dim: #b6c4ff;
+    --color-on-primary-fixed: #051749;
+    --color-on-primary-fixed-variant: #364476;
+
+    --color-secondary: #565f68;
+    --color-on-secondary: #ffffff;
+    --color-secondary-container: #dae3ed;
+    --color-on-secondary-container: #5c656e;
+    --color-secondary-fixed: #dae3ed;
+    --color-secondary-fixed-dim: #bec7d1;
+    --color-on-secondary-fixed: #141d24;
+    --color-on-secondary-fixed-variant: #3f4850;
+
+    --color-tertiary: #001e08;
+    --color-on-tertiary: #ffffff;
+    --color-tertiary-container: #003613;
+    --color-on-tertiary-container: #24ab51;
+    --color-tertiary-fixed: #7ffc97;
+    --color-tertiary-fixed-dim: #62df7d;
+    --color-on-tertiary-fixed: #002109;
+    --color-on-tertiary-fixed-variant: #005320;
+
+    --color-error: #ba1a1a;
+    --color-on-error: #ffffff;
+    --color-error-container: #ffdad6;
+    --color-on-error-container: #93000a;
+
+    --color-background: #f8f9ff;
+    --color-on-background: #0b1c30;
+    --color-surface: #f8f9ff;
+    --color-on-surface: #0b1c30;
+    --color-on-surface-variant: #45464f;
+    --color-surface-variant: #d3e4fe;
+    --color-surface-dim: #cbdbf5;
+    --color-surface-bright: #f8f9ff;
+    --color-surface-tint: #4e5c90;
+
+    --color-surface-container-lowest: #ffffff;
+    --color-surface-container-low: #eff4ff;
+    --color-surface-container: #e5eeff;
+    --color-surface-container-high: #dce9ff;
+    --color-surface-container-highest: #d3e4fe;
+
+    --color-outline: #767680;
+    --color-outline-variant: #c6c5d0;
+
+    --color-inverse-surface: #213145;
+    --color-inverse-on-surface: #eaf1ff;
+    --color-inverse-primary: #b6c4ff;
+}

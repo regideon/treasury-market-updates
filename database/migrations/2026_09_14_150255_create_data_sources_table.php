@@ -1,0 +1,38 @@
+<?php
+
+use App\Enums\DataSourceMethod;
+use Illuminate\Database\Migrations\Migration;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\Schema;
+
+return new class extends Migration
+{
+    /**
+     * Run the migrations.
+     */
+    public function up(): void
+    {
+        Schema::create('data_sources', function (Blueprint $table) {
+            $table->id();
+            $table->string('name');
+            $table->string('slug')->unique();
+            $table->string('category');
+            $table->string('method')->default(DataSourceMethod::Manual->value);
+            $table->string('url')->nullable();
+            $table->string('schedule_cron')->nullable();
+            $table->boolean('is_active')->default(true);
+            $table->json('config')->nullable();
+            $table->timestamps();
+
+            $table->index('category');
+        });
+    }
+
+    /**
+     * Reverse the migrations.
+     */
+    public function down(): void
+    {
+        Schema::dropIfExists('data_sources');
+    }
+};
